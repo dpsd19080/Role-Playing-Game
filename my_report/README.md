@@ -34,7 +34,7 @@
 - [City Tilemaps](https://www.artstation.com/marketplace/p/yr9p8/city-tileset-pack)
 - [Crates](https://www.istockphoto.com/vector/pixelated-wooden-box-set-pixel-art-isometric-projection-3d-vector-illustration-gm1210024697-350374351)
 
-Το τελικό αποτέλεσμα πλέον είναι αυτό: 
+Το τελικό αποτέλεσμα πλέον μετά το Bulid and Run είναι αυτό: 
 
 ![Alt Text](https://github.com/dpsd19080/Role-Playing-Game/blob/main/my_report/deliverable_1_final.gif)
 
