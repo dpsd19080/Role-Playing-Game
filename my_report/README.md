@@ -34,6 +34,7 @@
 - [Crates](https://www.istockphoto.com/vector/pixelated-wooden-box-set-pixel-art-isometric-projection-3d-vector-illustration-gm1210024697-350374351)
 
 Το τελικό αποτέλεσμα πλέον είναι αυτό: 
+
 ![Alt Text](https://github.com/dpsd19080/Role-Playing-Game/blob/main/my_report/deliverable_1_final.gif)
 
 #### Extra προσθήκες που δεν ήταν υποχρεωτικές ακόμα: 
