@@ -27,6 +27,11 @@
 - [Spider-Man Sheets](https://gr.pinterest.com/pin/298504281561510034/)
 - [City Tilemaps](https://www.artstation.com/marketplace/p/yr9p8/city-tileset-pack)
 - [Crates](https://www.istockphoto.com/vector/pixelated-wooden-box-set-pixel-art-isometric-projection-3d-vector-illustration-gm1210024697-350374351)
+Το τελικό αποτέλεσμα πλέον είναι αυτό: 
+
+#### Extra προσθήκες που δεν ήταν υποχρεωτικές ακόμα: 
+- Προσθήκη Public float speed, με σκοπό να μπορώ να αλλάζω την ταχύτητα ανά πάσα στιγμή, χωρίς να χρειάζεται συνεχής επεξεργασία του script αρχείου για τον χειρισμό του Spider-Man.
+- Προσθήκη walking animations στον Spider-Man 
 
 # 2nd Deliverable
 
