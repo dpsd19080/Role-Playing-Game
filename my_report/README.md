@@ -23,10 +23,16 @@
 
 ![Alt Text](https://github.com/dpsd19080/Role-Playing-Game/blob/main/my_report/problem1.gif)
 
+Αυτό επιλύθηκε απλά ορίζοντα τις συντεταγμένες έτσι:
+- x = 0
+- y = 0
+- z = 1
+
 Αφού ολοκλήρωσα το πρώτο παραδοτέο μια φόρα με τα assets του [Ruby's Adventure](https://assetstore.unity.com/packages/templates/tutorials/2d-beginner-tutorial-resources-140167) για να καταλάβω την λογική, ξανά έκανα όλη την διαδικασία με τα εξής assets: 
 - [Spider-Man Sheets](https://gr.pinterest.com/pin/298504281561510034/)
 - [City Tilemaps](https://www.artstation.com/marketplace/p/yr9p8/city-tileset-pack)
 - [Crates](https://www.istockphoto.com/vector/pixelated-wooden-box-set-pixel-art-isometric-projection-3d-vector-illustration-gm1210024697-350374351)
+
 Το τελικό αποτέλεσμα πλέον είναι αυτό: 
 
 #### Extra προσθήκες που δεν ήταν υποχρεωτικές ακόμα: 
