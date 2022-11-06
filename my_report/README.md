@@ -20,6 +20,7 @@
 - z = 0 
 
 Όταν το έκανα έτσι γινόταν αυτό:
+
 ![Alt Text](https://github.com/dpsd19080/Role-Playing-Game/blob/main/my_report/problem1.gif)
 
 Αφού ολοκλήρωσα το πρώτο παραδοτέο μια φόρα με τα assets του [Ruby's Adventure](https://assetstore.unity.com/packages/templates/tutorials/2d-beginner-tutorial-resources-140167) για να καταλάβω την λογική, ξανά έκανα όλη την διαδικασία με τα εξής assets: 
