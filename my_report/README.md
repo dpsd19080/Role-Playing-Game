@@ -14,7 +14,7 @@
 #### 3st Deliverable:
 
 # 1st Deliverable
-Ξεκίνησα την εργασία ακολουθώντας τις οδηγίες που μας δόθηκαν για το πρώτο [παραδοτέο](https://github.com/merkourisa/Role-Playing-Game/issues/1). Όταν ξεκίνησα να υλοποιώ τις οδηγίες για το [World Design - Tilemaps](https://learn.unity.com/tutorial/world-design-tilemaps?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c) αντιμετώποισα πρόβλημα επειδή οι οδηγίες ήταν outdated.
+Ξεκίνησα την εργασία ακολουθώντας τις οδηγίες που μας δόθηκαν για το πρώτο [παραδοτέο](https://github.com/merkourisa/Role-Playing-Game/issues/1). Όταν ξεκίνησα να υλοποιώ τις οδηγίες για το [World Design - Tilemaps](https://learn.unity.com/tutorial/world-design-tilemaps?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c) αντιμετώποισα πρόβλημα επειδή οι οδηγίες ήταν outdated, πιο συγκεκριμένα έχει αλλάξει ο τρόπως δημιουργίας των Tilemaps. Παρ ολ' αυτά, με μια γρήγοργ αναζήτηση στο YouTube βρήκα αύτο το [βίντεο](https://www.youtube.com/watch?v=DTp5zi8_u1U) που μου έλυσε το πρόβλημα! 
 
 # 2nd Deliverable
 
