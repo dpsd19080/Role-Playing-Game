@@ -28,6 +28,7 @@
 - y = 0
 - z = 1
 
+
 Αφού ολοκλήρωσα το πρώτο παραδοτέο μια φόρα με τα assets του [Ruby's Adventure](https://assetstore.unity.com/packages/templates/tutorials/2d-beginner-tutorial-resources-140167) για να καταλάβω την λογική, ξανά έκανα όλη την διαδικασία με τα εξής assets: 
 - [Spider-Man Sheets](https://gr.pinterest.com/pin/298504281561510034/)
 - [City Tilemaps](https://www.artstation.com/marketplace/p/yr9p8/city-tileset-pack)
