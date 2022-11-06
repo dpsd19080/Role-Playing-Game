@@ -56,3 +56,13 @@
 
 
 # Sources
+#### 1st Deliverable:
+- [Get started with Ruby’s Adventure](https://learn.unity.com/tutorial/main-character-and-first-script?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c)
+- [Character Controller and Keyboard Input](https://learn.unity.com/tutorial/character-controller-and-keyboard-input?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c)
+- [World Design - Tilemaps](https://learn.unity.com/tutorial/world-design-tilemaps?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c)
+- [Decorating the World](https://learn.unity.com/tutorial/decorating-the-world?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c)
+- [Creating Tilemaps For Your 2D Game in Unity 2021 - Tutorial](https://www.youtube.com/watch?v=DTp5zi8_u1U)
+- [Ruby's Adventure](https://assetstore.unity.com/packages/templates/tutorials/2d-beginner-tutorial-resources-140167)
+- [Spider-Man Sheets](https://gr.pinterest.com/pin/298504281561510034/)
+- [City Tilemaps](https://www.artstation.com/marketplace/p/yr9p8/city-tileset-pack)
+- [Crates](https://www.istockphoto.com/vector/pixelated-wooden-box-set-pixel-art-isometric-projection-3d-vector-illustration-gm1210024697-350374351)
