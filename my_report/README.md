@@ -44,6 +44,8 @@
  
 - Προσθήκη walking animations στον Spider-Man 
 
+![Alt Text](https://github.com/dpsd19080/Role-Playing-Game/blob/main/my_report/walking_animation.gif)
+
 # 2nd Deliverable
 
 
