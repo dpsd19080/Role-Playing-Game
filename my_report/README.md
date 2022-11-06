@@ -14,7 +14,7 @@
 #### 3st Deliverable:
 
 # 1st Deliverable
-Ξεκίνησα την εργασία ακολουθώντας τις οδηγίες που μας δόθηκαν για το πρώτο [παραδοτέο](https://github.com/merkourisa/Role-Playing-Game/issues/1). 
+Ξεκίνησα την εργασία ακολουθώντας τις οδηγίες που μας δόθηκαν για το πρώτο [παραδοτέο](https://github.com/merkourisa/Role-Playing-Game/issues/1). Όταν ξεκίνησα να υλοποιώ τις οδηγίες για το [World Design - Tilemaps](https://learn.unity.com/tutorial/world-design-tilemaps?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c) αντιμετώποισα πρόβλημα επειδή οι οδηγίες ήταν outdated.
 
 # 2nd Deliverable
 
