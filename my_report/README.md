@@ -37,6 +37,8 @@
 
 #### Extra προσθήκες που δεν ήταν υποχρεωτικές ακόμα: 
 - Προσθήκη Public float speed, με σκοπό να μπορώ να αλλάζω την ταχύτητα ανά πάσα στιγμή, χωρίς να χρειάζεται συνεχής επεξεργασία του script αρχείου για τον χειρισμό του Spider-Man.
+ ![ScreenShot](public float speed.jpg)
+ 
 - Προσθήκη walking animations στον Spider-Man 
 
 # 2nd Deliverable
