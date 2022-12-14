@@ -47,7 +47,7 @@
 ![Alt Text](https://github.com/dpsd19080/Role-Playing-Game/blob/main/my_report/walking_animation.gif)
 
 # 2nd Deliverable
-
+Σε αυτό το παραδοτέο τα πράγματα πήραν μια πιο ενδιαφέρουσα τροπή.
 
 # 3rd Deliverable 
 
