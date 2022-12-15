@@ -134,6 +134,12 @@
 Κάπου εδώ πρόσθεσα στον κώδικα την εντολή "animator.SetTrigger("Launch");" με σκοπό να αξιοποίησω το animation που ανέφερα πριν. Τώρα,
 το μόνο που έλειπε ήταν να ορίσω ένα κουμπί στο SpiderManController Script και να καλέσω την Launch(); με στόχο να εκτοξεύει το projectile και να παίζει το animation:
 (Προσθήκη εικόνας)
+Όμως, δεν είχα τελειώσει ακόμη. Υπήρχαν δύο πρόβλημα που έπρεπε να λύσω ακόμα:
+- Το projectile παρότι είχε force και direction έμενε ακίνητο. Αυτό το έλυσα αλλάζοντας την Void start() σε void Awake() στο Projectile Script 
+- To projectile έκανε collide με τον χαρακτήρα. Αυτό λύθηκε ορίζοντας "Character" και "Projectile" layers από πάνω δεξιά στον Inspector (προσθέτοντας νέα layers μέσω του layer manager) και πηγαίνοντας στα Project Setting > Physics 2d και κάνοντας uncheck το intersection ανάμεσα σε Character και Projectile.
+Τελειώνοντας, έμενε μονάχα να "σκοτώνω" τους εχθρούς όταν τους βρίσκει το projectile και να παίζει το Death animation. 
+Αυτό το κατάφερα προσθέτοντας τις έξεις εντολές στα EnemyController και Projectile Scripts αντίστοιχα:
+(Προσθήκη εικονες)
 
 Τέλος, για να ολοκληρωθεί το παραδοτέο έμενε να "φτιάξω" την κάμερα με τέτοιο τρόπο έτσι ώστε να έχει σαν επίκεντρο και να ακολουθεί τον πρωταγωνιστή μου.
 
