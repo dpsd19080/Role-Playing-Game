@@ -83,9 +83,9 @@
 
 Ξεκίνησα (όπως και στο tutorial) με τα Animations των εχθρών μου:
 - Προσθήκη Animator στους εχθρούς μου 
-- Προσθήκη Walking (Right and Left) και Death ("Fixed" στο tutorial) animations για τον πρώτο εχθρό.
+- Δημιουργία Walking (Right and Left) και Death ("Fixed" στο tutorial) animations για τον πρώτο εχθρό.
 (Προσθήκη gif)
-- Προσθήκη Walking (Up and Down) και Death ("Fixed" στο tutorial) animations για τον δεύτερο εχθρό.
+- Δημιουργία Walking (Up and Down) και Death ("Fixed" στο tutorial) animations για τον δεύτερο εχθρό.
 (Προσθήκη gif)
 - Δημιουργία Blend Tree 
 (Προσθήκη gif)
@@ -95,13 +95,18 @@
 #### Σημείωση 2: Η εμπειρία, μου έδειξε πως αν γίνει το παραμικρό λάθος σε οποιαδήποτε στάδιο του Blend Tree απλά όλα τα animation σχεδόν γίνονται προβληματικά ή μπερδεμένα.
 
 
-#### Σημείωση 3: Τα assets των εχθρών: [Enemy 1], [Enemy 2]
+#### Σημείωση 3: Τα assets των εχθρών: [Enemy 1 Sheets], [Enemy 2 Sheets]
 
 
 - Προσθήκη των εξής εντολών στο EnemyController Script:
 (Προσθήκη εικόνας)
 Σκοπός είναι να καλέσω των Animator έτσι ώστε κάθε φορά που θα περνάει ένα χρονικό διάστημα και θα έχει διανύσει μια απόσταση να αλλάζει κατεύθυνση και να αλλάζει μαζί και το animation.
-
+- Δημιουργία Idle, Walking (Left and Right), Hit και Launch (θα χρειαστούν για τα projectiles, θα εξηγηθεί αργότερα) animations
+(Προσθήκη gif)
+- Δημιουργία τεσσάρων Blend Tree (Idle, Walking, Hit, Launch) για την διαχείριση των animations του Spider-Man 
+(Προσθήκη gif)
+-Προσθήκη των εξής εντολών στο SpiderManController Script:
+(Προσθήκη εικόνας)
 
 # 3rd Deliverable 
 
