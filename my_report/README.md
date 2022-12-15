@@ -105,7 +105,7 @@
 (Προσθήκη gif)
 - Δημιουργία τεσσάρων Blend Tree (Idle, Walking, Hit, Launch) για την διαχείριση των animations του Spider-Man 
 (Προσθήκη gif)
--Προσθήκη των εξής εντολών στο SpiderManController Script:
+- Προσθήκη των εξής εντολών στο SpiderManController Script:
 (Προσθήκη εικόνας)
 
 # 3rd Deliverable 
