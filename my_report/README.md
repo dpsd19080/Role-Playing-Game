@@ -100,10 +100,12 @@
 Επόμενη κίνηση, προσθήκη των εχθρών. 
 Παρόμοια λογική και εδώ όπως και με τα προηγούμενα, δημιουργία EnemyController Script και προσθήκη αυτού, προσθήκη Rigidbody 2D και box collider 2D.
 Σε αυτή την φάση το EnemyController Script ήταν κάπως έτσι:
-(Προσθήκη εικόνας)
+![ScreenShot](enemycontroller_script1.jpg)
+![ScreenShot](enemycontroller_script2.jpg)
+![ScreenShot](enemycontroller_script3.jpg)
 Απλά ορίζεται μια ταχύτητα και κατ ουσίαν ακολουθεί μια κατεύθυνση αριστερά και δεξιά ή πάνω και κάτω. 
 Τέλος, για προκαλούν και οι εχθροί damage όταν τους ακουμπάει ο πρωταγωνιστής απλώς πρόσθεσα τον παρακάτω κώδικα στο script των εχθρών μου:
-(Προσθήκη εικόνας)
+![ScreenShot](enemycontroller_script4.jpg)
 
 #### Σημείωση: Τα assets των εχθρών: [Enemy 1 Sheets](https://twitter.com/creeperofsteam/status/1505997629817331716), [Enemy 2 Sheets](https://www.mediafire.com/convkey/0455/2ojme8ya5fmg7ypzg.jpg?size_id=5)
 
