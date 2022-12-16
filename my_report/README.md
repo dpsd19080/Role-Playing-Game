@@ -167,6 +167,7 @@
 ![ScreenShot](cam_follow.jpg) ![Alt Text](https://github.com/dpsd19080/Role-Playing-Game/blob/main/my_report/camera_follows_spiderman.gif)
 
 Το τελικό αποτέλεσμα πλέον μετά το Bulid and Run είναι αυτό: 
+
 ![Alt Text](https://github.com/dpsd19080/Role-Playing-Game/blob/main/my_report/fina2.gif)
 # 3rd Deliverable 
 
