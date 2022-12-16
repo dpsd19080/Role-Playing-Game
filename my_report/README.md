@@ -144,16 +144,19 @@
 Προτελευταία απαίτηση ηταν ο χαρακτήρας μου να "πετάει" σφαίρες οι οποίες θα προκαλούν Damage στους εχθρούς. Μιας και ο πρωταγωνιστής μου είναι ο Spider-Man, σαν σφαίρες έφτιαξα στο photoshop ιστούς.
 Ξεκίνησα να προσεγγίζω το θέμα ως εξής. Αρχικά, πρόσθεσα το spite μου στο map προσωρινά για να του βάλω Rigidbody 2D και box collider 2D. Έπειτα, συμβουλεύτικα κάποιες ρυθμίσεις από το tutorial που μας είχε υποδεχθεί. Μετά, δημιούργησα ξανά ένα νέο C# Script με όνομα Projectile:
 ![ScreenShot](projectile.jpg)
-Κάπου εδώ πρόσθεσα στον κώδικα την εντολή "animator.SetTrigger("Launch");" με σκοπό να αξιοποίησω το animation που ανέφερα πριν. 
-![ScreenShot](launch1.jpg)
-Τώρα, το μόνο που έλειπε ήταν να ορίσω ένα κουμπί στο SpiderManController Script και να καλέσω την Launch(); με στόχο να εκτοξεύει το projectile και να παίζει το animation:
+Κάπου εδώ πρόσθεσα στον κώδικα του SpiderManController, την εντολή "animator.SetTrigger("Launch");" με σκοπό να αξιοποίησω το animation που ανέφερα πριν. 
 ![ScreenShot](launch2.jpg)
+Τώρα, το μόνο που έλειπε ήταν να ορίσω ένα κουμπί στο Script και να καλέσω την Launch(); με στόχο να εκτοξεύει το projectile και να παίζει το animation:
+![ScreenShot](launch1.jpg)
 Όμως, δεν είχα τελειώσει ακόμη. Υπήρχαν δύο πρόβλημα που έπρεπε να λύσω ακόμα:
 - Το projectile παρότι είχε force και direction έμενε ακίνητο. Αυτό το έλυσα αλλάζοντας την Void start() σε void Awake() στο Projectile Script 
 - To projectile έκανε collide με τον χαρακτήρα. Αυτό λύθηκε ορίζοντας "Character" και "Projectile" layers από πάνω δεξιά στον Inspector (προσθέτοντας νέα layers μέσω του layer manager) και πηγαίνοντας στα Project Setting > Physics 2d και κάνοντας uncheck το intersection ανάμεσα σε Character και Projectile.
 Τελειώνοντας, έμενε μονάχα να "σκοτώνω" τους εχθρούς όταν τους βρίσκει το projectile και να παίζει το Death animation. 
 Αυτό το κατάφερα προσθέτοντας τις έξεις εντολές στα EnemyController και Projectile Scripts αντίστοιχα:
-(Προσθήκη εικονες)
+![ScreenShot](enemy_death1.jpg)
+![ScreenShot](enemy_death2.jpg)
+![ScreenShot](enemy_death3.jpg)
+![ScreenShot](enemy_death4.jpg)
 
 Τέλος, για να ολοκληρωθεί το παραδοτέο έμενε να "φτιάξω" την κάμερα με τέτοιο τρόπο έτσι ώστε να έχει σαν επίκεντρο και να ακολουθεί τον πρωταγωνιστή μου.
 
