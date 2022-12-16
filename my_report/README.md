@@ -60,8 +60,8 @@
 
 Στην συνέχεια μου ζητήθηκε (από την εκφώνηση του δεύτερου [παραδοτέου](https://github.com/merkourisa/Role-Playing-Game/issues/2)) να φτιάξω Health Collectables τα οποία θα μπορεί να συλλέγει ο χαρακτήρας μου κάθε φορά που "δέχεται" κάποιο damage.
 Αρχικά, με την βοήθεια του [World Interactions - Collectibles](https://learn.unity.com/tutorial/world-interactions-collectibles?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c) συμπλήρωσα το C# Script "SpiderManController" με στόχο να ορίσω κάποιο Health Stat στον Spider-Man.
-![ScreenShot](health_stat1.jpg)
-![ScreenShot](health_stat2.jpg)
+![ScreenShot](health_stat1_fixed.jpg)
+![ScreenShot](health_stat2_fixed.jpg)
 ![ScreenShot](health_stat3.jpg)
 
 
