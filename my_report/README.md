@@ -104,13 +104,14 @@
 ![ScreenShot](enemycontroller_script2.jpg)
 ![ScreenShot](enemycontroller_script3.jpg)
 Απλά ορίζεται μια ταχύτητα και κατ ουσίαν ακολουθεί μια κατεύθυνση αριστερά και δεξιά ή πάνω και κάτω. 
+
 Τέλος, για προκαλούν και οι εχθροί damage όταν τους ακουμπάει ο πρωταγωνιστής απλώς πρόσθεσα τον παρακάτω κώδικα στο script των εχθρών μου:
 ![ScreenShot](enemycontroller_script4.jpg)
 
 #### Σημείωση: Τα assets των εχθρών: [Enemy 1 Sheets](https://twitter.com/creeperofsteam/status/1505997629817331716), [Enemy 2 Sheets](https://www.mediafire.com/convkey/0455/2ojme8ya5fmg7ypzg.jpg?size_id=5)
 
 Επόμενο βήμα, βήμα σιδηρόδρομος, τα Animations. Βήμα εξερετικά απαραίτητο για κάθε game μιας και του δίνει ζωντάνια, χωρίς αυτό το παιχνίδι θα έδειχνε άδειο και αχανές.
-Για να μην χαθώ, ακολούθησα κατά γράμμα τις οδηγίες που μας δόθηκαν δόθηκαν για τα [Sprite Animations]. 
+Για να μην χαθώ, ακολούθησα κατά γράμμα τις οδηγίες που μας δόθηκαν δόθηκαν για τα [Sprite Animations](https://learn.unity.com/tutorial/sprite-animation?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c#). 
 
 Ξεκίνησα (όπως και στο tutorial) με την εξής σειρά:
 - Προσθήκη Animator στους εχθρούς μου 
@@ -127,7 +128,8 @@
 
 
 - Προσθήκη των εξής εντολών στο EnemyController Script:
-(Προσθήκη εικόνας)
+![ScreenShot](enemycontroller_animator1.jpg)
+![ScreenShot](enemycontroller_animator2.jpg)
 Σκοπός είναι να καλέσω των Animator έτσι ώστε κάθε φορά που θα περνάει ένα χρονικό διάστημα και θα έχει διανύσει μια απόσταση να αλλάζει κατεύθυνση και να αλλάζει μαζί και το animation.
 - Δημιουργία Idle, Walking (Left and Right), Hit και Launch (θα χρειαστούν για τα projectiles, θα εξηγηθεί αργότερα) animations
 (Προσθήκη gif)
