@@ -66,7 +66,7 @@
 
 #### Πολύ συνοπτικά, ορίζω μια μεταβλητή int με όνομα maxHealth η οποία αντιστοιχεί στην αρχική και μέγιστη ζωή του χαρακτήρα. Αμέσως μετά, ορίζω μια int currentHealth η οποία θα μου επιστρέφει πάντα την τιμή που αντιστοιχεί στην ζωή που έχει ο χαρακτήρας κάθε στιγμή του παιχνιδιού. Όταν ξεκινάει το παιχνίδι, προφανώς η currentHealth είναι ίση με την maxHealth μιας και ο Spider-Man δεν θα έχει δεχθεί κανένα damage κατά την έναρξη του παιχνιδιού. Επιπλέον, έχει δημιουργηθεί μια συνάρτηση ChangeHealth η οποία υπολογίζει συνέχεια την τιμή της currentHealth και την εμφανίζει στο Console.
 
-Έπειτα, βρήκα και τοποθέτησα στα sprites μου το εξής asset για Health Collectable: [Pizza](https://weheartit.com/entry/103348799) 
+Έπειτα, βρήκα και τοποθέτησα στα sprites μου το εξής asset για Health Collectable: [Pizza Pixel Art](https://weheartit.com/entry/103348799) 
 
 Του βάζω ένα box collider 2D αλλά αυτή την φορά με την διαφορά ότι "κλικαρω" την επιλογή is Trigger γιατί στην συγκεκριμένη περίπτωση δεν θέλω ο χαρακτήρας να συγκρούεται με το αντικείμενο αλλά κάθε φορά που περνάει από πάνω του να γίνεται Trigger κάποια ενέργεια που θέλω. Ο σκοπό μου είναι κάθε φορά που έχει χάσει ζωή και περνάει από πάνω του να το "μαζεύει" κια να του συμπληρώνετε μια μονάδα ζωής.
 Για να το πετύχω αυτό, δημιουργώ ένα ακόμα C# Script με όνομα HealthCollectible:
@@ -132,10 +132,11 @@
 ![ScreenShot](enemycontroller_animator1.jpg)
 ![ScreenShot](enemycontroller_animator2.jpg)
 Σκοπός είναι να καλέσω των Animator έτσι ώστε κάθε φορά που θα περνάει ένα χρονικό διάστημα και θα έχει διανύσει μια απόσταση να αλλάζει κατεύθυνση και να αλλάζει μαζί και το animation.
-- Δημιουργία Idle, Walking (Left and Right), Hit και Launch (θα χρειαστούν για τα projectiles, θα εξηγηθεί αργότερα) animations
-(Προσθήκη gif)
+- Δημιουργία Idle, Walking (Left and Right), Hit και Launch (θα χρειαστούν για τα projectiles, θα εξηγηθεί αργότερα) animations για τον Spider-Man.
+
+![Alt Text](https://github.com/dpsd19080/Role-Playing-Game/blob/main/my_report/spiderman_anaimations.gif)
 - Δημιουργία τεσσάρων Blend Tree (Idle, Walking, Hit, Launch) για την διαχείριση των animations του Spider-Man 
-(Προσθήκη gif)
+![Alt Text](https://github.com/dpsd19080/Role-Playing-Game/blob/main/my_report/spiderman_animator.gif)
 - Προσθήκη των εξής εντολών στο SpiderManController Script:
 ![ScreenShot](spideycontroller_animator1.jpg)
 ![ScreenShot](spideycontroller_animator2.jpg)
@@ -162,9 +163,9 @@
 Τέλος, για να ολοκληρωθεί το παραδοτέο έμενε να "φτιάξω" την κάμερα με τέτοιο τρόπο έτσι ώστε να έχει σαν επίκεντρο και να ακολουθεί τον πρωταγωνιστή μου.
 
 Ξεκίνησα κάνοντας εγκατάσταση μέσα από το unity το Cinemachina. Έπειτα έμενε απλά να το ρυθμίσω με βάση τις οδηγίες και να το βάλω να ακολουθεί τον Spider-Man. 
-(Προσθήκη εικόνας και gif)
 
-![ScreenShot](cam_follow.jpg)
+![ScreenShot](cam_follow.jpg) ![Alt Text](https://github.com/dpsd19080/Role-Playing-Game/blob/main/my_report/camera_follows_spiderman.gif)
+
 Το τελικό αποτέλεσμα πλέον μετά το Bulid and Run είναι αυτό: 
 (Προσθήκη gif)
 # 3rd Deliverable 
@@ -184,3 +185,15 @@
 - [Spider-Man Sheets](https://gr.pinterest.com/pin/298504281561510034/)
 - [City Tilemaps](https://www.artstation.com/marketplace/p/yr9p8/city-tileset-pack)
 - [Crates](https://www.istockphoto.com/vector/pixelated-wooden-box-set-pixel-art-isometric-projection-3d-vector-illustration-gm1210024697-350374351)
+
+#### 2nd Deliverable:
+- [World Interactions - Blocking Movement](https://learn.unity.com/tutorial/world-interactions-blocking-movement?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c)
+- [World Interactions - Collectibles](https://learn.unity.com/tutorial/world-interactions-collectibles?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c)
+- [World Interactions - Damage Zones and Enemies](https://learn.unity.com/tutorial/world-interactions-damage-zones-and-enemies?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c)
+- [Sprite Animation](https://learn.unity.com/tutorial/sprite-animation?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c#)
+- [World Interactions - Projectile](https://learn.unity.com/tutorial/world-interactions-projectile?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c)
+- [Camera - Cinemachine](https://learn.unity.com/tutorial/camera-cinemachine?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c)
+- [Pizza Pixel Art](https://weheartit.com/entry/103348799) 
+- [Broken Glass Pixel Art](https://www.pngkey.com/detail/u2y3q8w7w7i1i1e6_820-x-400-4-broken-glass-pixel-art/)
+- [Enemy 1 Sheets](https://twitter.com/creeperofsteam/status/1505997629817331716)
+- [Enemy 2 Sheets](https://www.mediafire.com/convkey/0455/2ojme8ya5fmg7ypzg.jpg?size_id=5)
