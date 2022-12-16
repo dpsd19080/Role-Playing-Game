@@ -118,9 +118,10 @@
 - Δημιουργία Walking (Right and Left) και Death ("Fixed" στο tutorial) animations για τον πρώτο εχθρό.
 ![Alt Text](https://github.com/dpsd19080/Role-Playing-Game/blob/main/my_report/enemy1_animations.gif)
 - Δημιουργία Walking (Up and Down) και Death ("Fixed" στο tutorial) animations για τον δεύτερο εχθρό.
-(Προσθήκη gif)
+![Alt Text](https://github.com/dpsd19080/Role-Playing-Game/blob/main/my_report/enemy2_animations.gif)
 - Δημιουργία Blend Tree 
-(Προσθήκη gif)
+
+![Alt Text](https://github.com/dpsd19080/Role-Playing-Game/blob/main/my_report/enemy_animator.gif)
 #### Σημείωση 1: Όπως φάνηκε, δημιούργησα και επεξεργάστικα ένα κοινό Blend Tree και για τους δύο εχθρούς και όχι δύο διαφορετικά. Η αρχική μου προσέγγιση ήταν ο κάθε ένας να έχει το δικό του αλλά υπήρχαν μικροπροβλήματα όπως να μην αλλάζει από WalkingRight σε WalkingLeft. Οπότε σκέφτηκα πως, αφού στο tutorial τα robots θα έκαναν μόνο οριζόντια ή κάθετη κίνηση ανάλογα με τον αν θα έχεις "τσεκαρισμένο" το Vertical στον Inspecot στο κομμάτι που αφορά το EnemyController Script, θα μπορούσα απλά να βάλω στον ένα άξονα τον πρώτο εχθρό και στον άλλον τον δεύτερο(ούτως ή άλλως, σκόπευα να έχουν στον έναν μόνο άξονα κίνηση ο κάθε ένας εχθρός).
 
 
