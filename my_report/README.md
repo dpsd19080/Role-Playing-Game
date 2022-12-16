@@ -56,7 +56,7 @@
 Επιπλέον, πρόσθεσα ένα Rigidbody 2D στον Spidey έτσι ώστε να συμπεριφέρεται με βάση την φυσική. Ομως, απενεργοποιώ την βαρύτητα του γιατί δεν θέλω να πέφτει κάτω μιας και το παιχνίδι μου θέλω να είναι Top-Down. ![ScreenShot](Spidey's_Rigidbody.jpg)
 
 Αμέσως μετά τοποθέτησα ένα box collider 2D και στο Tilemap με σκοπό να ορίσω τα όρια που μπορεί κινήται ο Spider-Man.
-(Προσθήκη εικόνας)
+(Προσθήκη gif)
 
 Στην συνέχεια μου ζητήθηκε (από την εκφώνηση του δεύτερου [παραδοτέου](https://github.com/merkourisa/Role-Playing-Game/issues/2)) να φτιάξω Health Collectables τα οποία θα μπορεί να συλλέγει ο χαρακτήρας μου κάθε φορά που "δέχεται" κάποιο damage.
 Αρχικά, με την βοήθεια του [World Interactions - Collectibles](https://learn.unity.com/tutorial/world-interactions-collectibles?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c) συμπλήρωσα το C# Script "SpiderManController" με στόχο να ορίσω κάποιο Health Stat στον Spider-Man.
@@ -136,16 +136,18 @@
 - Δημιουργία τεσσάρων Blend Tree (Idle, Walking, Hit, Launch) για την διαχείριση των animations του Spider-Man 
 (Προσθήκη gif)
 - Προσθήκη των εξής εντολών στο SpiderManController Script:
-(Προσθήκη εικόνας)
+![ScreenShot](spideycontroller_animator1.jpg)
+![ScreenShot](spideycontroller_animator2.jpg)
 
-Πλέον, μετά από όλα αυτά τα βήματα, τα animations του χαρακτήρας και των εχθρών μου αλλάζουν οπότε πρέπει και σωστά
+Πλέον, μετά από όλα αυτά τα βήματα, τα animations του χαρακτήρας και των εχθρών μου αλλάζουν όποτε πρέπει και σωστά
 
 Προτελευταία απαίτηση ηταν ο χαρακτήρας μου να "πετάει" σφαίρες οι οποίες θα προκαλούν Damage στους εχθρούς. Μιας και ο πρωταγωνιστής μου είναι ο Spider-Man, σαν σφαίρες έφτιαξα στο photoshop ιστούς.
 Ξεκίνησα να προσεγγίζω το θέμα ως εξής. Αρχικά, πρόσθεσα το spite μου στο map προσωρινά για να του βάλω Rigidbody 2D και box collider 2D. Έπειτα, συμβουλεύτικα κάποιες ρυθμίσεις από το tutorial που μας είχε υποδεχθεί. Μετά, δημιούργησα ξανά ένα νέο C# Script με όνομα Projectile:
-(Προσθήκη εικόνας)
-Κάπου εδώ πρόσθεσα στον κώδικα την εντολή "animator.SetTrigger("Launch");" με σκοπό να αξιοποίησω το animation που ανέφερα πριν. Τώρα,
-το μόνο που έλειπε ήταν να ορίσω ένα κουμπί στο SpiderManController Script και να καλέσω την Launch(); με στόχο να εκτοξεύει το projectile και να παίζει το animation:
-(Προσθήκη εικόνας)
+![ScreenShot](projectile.jpg)
+Κάπου εδώ πρόσθεσα στον κώδικα την εντολή "animator.SetTrigger("Launch");" με σκοπό να αξιοποίησω το animation που ανέφερα πριν. 
+![ScreenShot](launch1.jpg)
+Τώρα, το μόνο που έλειπε ήταν να ορίσω ένα κουμπί στο SpiderManController Script και να καλέσω την Launch(); με στόχο να εκτοξεύει το projectile και να παίζει το animation:
+![ScreenShot](launch2.jpg)
 Όμως, δεν είχα τελειώσει ακόμη. Υπήρχαν δύο πρόβλημα που έπρεπε να λύσω ακόμα:
 - Το projectile παρότι είχε force και direction έμενε ακίνητο. Αυτό το έλυσα αλλάζοντας την Void start() σε void Awake() στο Projectile Script 
 - To projectile έκανε collide με τον χαρακτήρα. Αυτό λύθηκε ορίζοντας "Character" και "Projectile" layers από πάνω δεξιά στον Inspector (προσθέτοντας νέα layers μέσω του layer manager) και πηγαίνοντας στα Project Setting > Physics 2d και κάνοντας uncheck το intersection ανάμεσα σε Character και Projectile.
