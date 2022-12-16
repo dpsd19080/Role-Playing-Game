@@ -51,12 +51,12 @@
 
 Πρώτη μου δουλειά (με βάση τις [οδηγίες](https://learn.unity.com/tutorial/world-interactions-blocking-movement?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c)) ήταν να διορθώσω το γεγονός ότι ο Spider-Man πέρναγε πάνω από τα boxes στο περιβάλλον αντί να συγκρούεται με αυτά. Αυτό επιτυγχάνεται με την βοήθεια των Colliders.
 Κατ ουσίαν, έπρεπε να προσθέσω ένα box collider 2D στον χαρακτήρα μου και αντίστοιχα ένα στο αντικείμενο με το οποίο θέλω να συγκρούεται (στην συγκεκριμένη περίπτωση τα boxes)
-(Προσθήκη gif)
+![Alt Text](https://github.com/dpsd19080/Role-Playing-Game/blob/main/my_report/box_collider.gif)
 
 Επιπλέον, πρόσθεσα ένα Rigidbody 2D στον Spidey έτσι ώστε να συμπεριφέρεται με βάση την φυσική. Ομως, απενεργοποιώ την βαρύτητα του γιατί δεν θέλω να πέφτει κάτω μιας και το παιχνίδι μου θέλω να είναι Top-Down. ![ScreenShot](Spidey's_Rigidbody.jpg)
 
-Αμέσως μετά τοποθέτησα ένα box collider 2D και στο Tilemap με σκοπό να ορίσω τα όρια που μπορεί κινήται ο Spider-Man.
-(Προσθήκη gif)
+Αμέσως μετά τοποθέτησα ένα box collider 2D και στο Tilemap με σκοπό να ορίσω τα όρια που θα μπορεί να κινείται ο Spider-Man.
+![Alt Text](https://github.com/dpsd19080/Role-Playing-Game/blob/main/my_report/map_boundaries.gif)
 
 Στην συνέχεια μου ζητήθηκε (από την εκφώνηση του δεύτερου [παραδοτέου](https://github.com/merkourisa/Role-Playing-Game/issues/2)) να φτιάξω Health Collectables τα οποία θα μπορεί να συλλέγει ο χαρακτήρας μου κάθε φορά που "δέχεται" κάποιο damage.
 Αρχικά, με την βοήθεια του [World Interactions - Collectibles](https://learn.unity.com/tutorial/world-interactions-collectibles?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c) συμπλήρωσα το C# Script "SpiderManController" με στόχο να ορίσω κάποιο Health Stat στον Spider-Man.
@@ -116,7 +116,7 @@
 Ξεκίνησα (όπως και στο tutorial) με την εξής σειρά:
 - Προσθήκη Animator στους εχθρούς μου 
 - Δημιουργία Walking (Right and Left) και Death ("Fixed" στο tutorial) animations για τον πρώτο εχθρό.
-(Προσθήκη gif)
+![Alt Text](https://github.com/dpsd19080/Role-Playing-Game/blob/main/my_report/enemy1_animations.gif)
 - Δημιουργία Walking (Up and Down) και Death ("Fixed" στο tutorial) animations για τον δεύτερο εχθρό.
 (Προσθήκη gif)
 - Δημιουργία Blend Tree 
