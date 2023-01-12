@@ -175,11 +175,16 @@
 Στο τελευταίο παραδοτέο ξεκίνησα να ασχολούμαι πρώτα με τα particles. Σκέφτηκα πως μιας και η πρώτη πίστα πραγματοποιήτε σε ταράτσα καλή ιδέα θα ήταν να προσθέσω roof vents και σαν Particles να βάλω τους καπνούς που βγάζουν. Ακολουθώντας τις οδηγείες που μου είχαν δωθεί: [Visual Styling - Particles](https://learn.unity.com/tutorial/visual-styling-particles?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c) και κάνοντας τις απαραίτητες μετατροπές, κατέληξα στο εξής αποτέλεσμα (αφότου τα έκανα prefabs και τα πρόσθεσα στα roof vents κάνοντας τα child τους)
 ![Alt Text](https://github.com/dpsd19080/Role-Playing-Game/blob/main/my_report/steam_effect.gif)
 
-#### Σημείωση: Τα vents τα έφτιαξα στο photoshop (εικόνα) και τα assets για το smoke/steam effect τα βρήκα εδώ: [Smoke Pixel Art](https://es.123rf.com/photo_136357611_pixel-art-cloud-of-smoke-game-icons-set-comic-boom-flame-effects-for-emotion.html)
+#### Σημείωση: Τα vents τα έφτιαξα στο photoshop ![ScreenShot](roofvents_phtoshop.jpg)
+και τα assets για το smoke/steam effect τα βρήκα εδώ: [Smoke Pixel Art](https://es.123rf.com/photo_136357611_pixel-art-cloud-of-smoke-game-icons-set-comic-boom-flame-effects-for-emotion.html)
  
  
  
  Visual Styling - User Interface - Head-Up Display.
+ 
+Επόμενο βήμα, ήταν να δημιουργήσω ένα Head-Up Display για την ζώη του Spider-Man. Στο προηγούμενο παραδοτέο που "έδωσα" ζωή στον Spider-Man, έκανε μονάχα Debug στο Console ενώ τώρα θα φαίνεται στην οθόνη του παιχνιδιού. Αρχικά, έπρεπε (μέσα στο Canvas) να δημιουργήσω ένα Image και να του προσθέσω σαν source το Health Frame που έφτιαξα στο photoshop
+![ScreenShot](health_source.jpg)
+![ScreenShot](Health_Frame_Spidery_PS.jpg)
  
  
  Head-Up Display για το score
