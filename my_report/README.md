@@ -11,7 +11,7 @@
 Η ατομική εργασία χωρίζεται σε τρία παραδοτέα: 
 #### [1st Deliverable](https://github.com/dpsd19080/Role-Playing-Game/tree/main/my_report#1st-deliverable):
 #### [2st Deliverable](https://github.com/dpsd19080/Role-Playing-Game/tree/main/my_report#2nd-deliverable):
-#### [3st Deliverable](https://github.com/dpsd19080/Role-Playing-Game/tree/main/my_report#3nd-deliverable):
+#### [3st Deliverable](https://github.com/dpsd19080/Role-Playing-Game/tree/main/my_report#3rd-deliverable):
 
 # 1st Deliverable
 Ξεκίνησα την εργασία ακολουθώντας τις οδηγίες που μας δόθηκαν για το πρώτο [παραδοτέο](https://github.com/merkourisa/Role-Playing-Game/issues/1). Όταν ξεκίνησα να υλοποιώ τις οδηγίες για το [World Design - Tilemaps](https://learn.unity.com/tutorial/world-design-tilemaps?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c) αντιμετώποισα πρόβλημα επειδή οι οδηγίες ήταν outdated, πιο συγκεκριμένα έχει αλλάξει ο τρόπως δημιουργίας των Tilemaps. Παρ ολ' αυτά, με μια γρήγορη αναζήτηση στο YouTube βρήκα αύτο το [βίντεο](https://www.youtube.com/watch?v=DTp5zi8_u1U) που μου έλυσε το πρόβλημα! Ένα επιπλέον πρόβλημα που δημιουργήθηκε ακολουθώντας τις οδηγίες για το [Decorating the World](https://learn.unity.com/tutorial/decorating-the-world?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c#) ήταν πως στο βήμα 3 μου ζήταγε να ορίσω τις εξής Transparency Sort Axis συντεταγμένες: 
@@ -170,8 +170,7 @@
 
 ![Alt Text](https://github.com/dpsd19080/Role-Playing-Game/blob/main/my_report/fina2.gif)
 # 3rd Deliverable
-
- Visual Styling - Particles. 
+ 
 Στο τελευταίο παραδοτέο ξεκίνησα να ασχολούμαι πρώτα με τα particles. Σκέφτηκα πως μιας και η πρώτη πίστα πραγματοποιήτε σε ταράτσα καλή ιδέα θα ήταν να προσθέσω roof vents και σαν Particles να βάλω τους καπνούς που βγάζουν. Ακολουθώντας τις οδηγείες που μου είχαν δωθεί: [Visual Styling - Particles](https://learn.unity.com/tutorial/visual-styling-particles?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c) και κάνοντας τις απαραίτητες μετατροπές, κατέληξα στο εξής αποτέλεσμα (αφότου τα έκανα prefabs και τα πρόσθεσα στα roof vents κάνοντας τα child τους)
 ![Alt Text](https://github.com/dpsd19080/Role-Playing-Game/blob/main/my_report/steam_effect.gif)
 
@@ -182,19 +181,23 @@
  
  Visual Styling - User Interface - Head-Up Display.
  
-Επόμενο βήμα, ήταν να δημιουργήσω ένα Head-Up Display για την ζώη του Spider-Man. Στο προηγούμενο παραδοτέο που "έδωσα" ζωή στον Spider-Man, έκανε μονάχα Debug στο Console ενώ τώρα θα φαίνεται στην οθόνη του παιχνιδιού. Αρχικά, έπρεπε (μέσα στο Canvas) να δημιουργήσω ένα Image και να του προσθέσω σαν source το Health Frame που έφτιαξα στο photoshop
+Επόμενο βήμα, ήταν να δημιουργήσω ένα Head-Up Display για την ζώη του Spider-Man. Στο προηγούμενο παραδοτέο που "έδωσα" ζωή στον Spider-Man, έκανε μονάχα Debug στο Console ενώ τώρα θα φαίνεται στην οθόνη του παιχνιδιού. Αρχικά, έπρεπε (μέσα στο Canvas) να δημιουργήσω ένα Image και να του προσθέσω σαν source το Health Frame 
 ![ScreenShot](health_source.jpg)
-![ScreenShot](Health_Frame_Spidery_PS.jpg)
 
-
- Τώρα έπρεπε να δημιουργήσω ένα script για να μειώνεται και να αυξάνεται η ζώη όταν ο ήρωας μας δέχεσαι ζημιά ή "σηκώνει" health collectable αντίστοιχα.
- ![ScreenShot](UiHealthScript.jpg)
- Τέλός, για να λειτουργεί πλήρως έμενε να αντικαταστήσω την εντολή για το debug με την εξής εντολή: 
- ![ScreenShot](UI_Call.jpg)
+Στην συνέχεια, με βάση τις [οδηγίες](https://learn.unity.com/tutorial/visual-styling-ui-head-up-display?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c#5d7f88fcedbc2a001fd3448d) χρησιμοποίησα το masking technique στο Health Bar, έτσι ώστε να μπορέσει αργότερα με την βοήθεια του κώδικα να παραμορφώνεται ανάλογα το Health Bar Image. 
+Τώρα έπρεπε να δημιουργήσω ένα script για να μειώνεται και να αυξάνεται η ζώη όταν ο ήρωας μας δέχεσαι ζημιά ή "σηκώνει" health collectable αντίστοιχα.
+![ScreenShot](UiHealthScript.jpg)
+Τέλος, για να λειτουργεί πλήρως, έμενε να αντικαταστήσω την εντολή για το debug με την εξής εντολή: 
+![ScreenShot](UI_Call.jpg)
  
+#### Σημείωση: Τα Health Frame και Health Bar του Spider-Man τα έφτιαξα στο photoshop
+![ScreenShot](Health_Frame_Spidery_PS.jpg)
+![ScreenShot](Health_Bar_Spidey_PS.jpg)
  
  Head-Up Display για το score
-  
+ 
+Έπειτα, μου ζητήθηκε από την [εκφώνηση του παραδοτέου](https://github.com/merkourisa/Role-Playing-Game/issues/3) να προσθέσω και ένα Head-Up Display για το score. Μιας και δεν μου δόθηκαν οδηγίες ανέτρεξα στο Youtube. 
+ 
   
  teleport σε κάποιο άλλο σημείο της πίστας.
  
