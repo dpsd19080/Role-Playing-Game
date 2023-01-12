@@ -172,10 +172,11 @@
 # 3rd Deliverable
  
 Στο τελευταίο παραδοτέο ξεκίνησα να ασχολούμαι πρώτα με τα particles. Σκέφτηκα πως μιας και η πρώτη πίστα πραγματοποιήτε σε ταράτσα καλή ιδέα θα ήταν να προσθέσω roof vents και σαν Particles να βάλω τους καπνούς που βγάζουν. Ακολουθώντας τις οδηγείες που μου είχαν δωθεί: [Visual Styling - Particles](https://learn.unity.com/tutorial/visual-styling-particles?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c) και κάνοντας τις απαραίτητες μετατροπές, κατέληξα στο εξής αποτέλεσμα (αφότου τα έκανα prefabs και τα πρόσθεσα στα roof vents κάνοντας τα child τους)
+
 ![Alt Text](https://github.com/dpsd19080/Role-Playing-Game/blob/main/my_report/steam_effect.gif)
 
-#### Σημείωση: Τα vents τα έφτιαξα στο photoshop ![ScreenShot](roofvents_phtoshop.jpg)
-και τα assets για το smoke/steam effect τα βρήκα εδώ: [Smoke Pixel Art](https://es.123rf.com/photo_136357611_pixel-art-cloud-of-smoke-game-icons-set-comic-boom-flame-effects-for-emotion.html)
+#### Σημείωση: Τα vents τα έφτιαξα στο photoshop και τα assets για το smoke/steam effect τα βρήκα εδώ: [Smoke Pixel Art](https://es.123rf.com/photo_136357611_pixel-art-cloud-of-smoke-game-icons-set-comic-boom-flame-effects-for-emotion.html)
+![ScreenShot](roofvents_phtoshop.jpg)
  
  
  
@@ -187,7 +188,7 @@
 Στην συνέχεια, με βάση τις [οδηγίες](https://learn.unity.com/tutorial/visual-styling-ui-head-up-display?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c#5d7f88fcedbc2a001fd3448d) χρησιμοποίησα το masking technique στο Health Bar, έτσι ώστε να μπορέσει αργότερα με την βοήθεια του κώδικα να παραμορφώνεται ανάλογα το Health Bar Image. 
 Τώρα έπρεπε να δημιουργήσω ένα script για να μειώνεται και να αυξάνεται η ζώη όταν ο ήρωας μας δέχεσαι ζημιά ή "σηκώνει" health collectable αντίστοιχα.
 ![ScreenShot](UiHealthScript.jpg)
-Τέλος, για να λειτουργεί πλήρως, έμενε να αντικαταστήσω την εντολή για το debug με την εξής εντολή: 
+Τέλος, για να λειτουργεί πλήρως, έμενε να αντικαταστήσω την εντολή για το debug στο SpiderManController με την εξής εντολή: 
 ![ScreenShot](UI_Call.jpg)
  
 #### Σημείωση: Τα Health Frame και Health Bar του Spider-Man τα έφτιαξα στο photoshop
