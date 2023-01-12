@@ -185,12 +185,20 @@
 Επόμενο βήμα, ήταν να δημιουργήσω ένα Head-Up Display για την ζώη του Spider-Man. Στο προηγούμενο παραδοτέο που "έδωσα" ζωή στον Spider-Man, έκανε μονάχα Debug στο Console ενώ τώρα θα φαίνεται στην οθόνη του παιχνιδιού. Αρχικά, έπρεπε (μέσα στο Canvas) να δημιουργήσω ένα Image και να του προσθέσω σαν source το Health Frame που έφτιαξα στο photoshop
 ![ScreenShot](health_source.jpg)
 ![ScreenShot](Health_Frame_Spidery_PS.jpg)
+
+
+ Τώρα έπρεπε να δημιουργήσω ένα script για να μειώνεται και να αυξάνεται η ζώη όταν ο ήρωας μας δέχεσαι ζημιά ή "σηκώνει" health collectable αντίστοιχα.
+ ![ScreenShot](UiHealthScript.jpg)
+ Τέλός, για να λειτουργεί πλήρως έμενε να αντικαταστήσω την εντολή για το debug με την εξής εντολή: 
+ ![ScreenShot](UI_Call.jpg)
  
  
  Head-Up Display για το score
   
   
  teleport σε κάποιο άλλο σημείο της πίστας.
+ 
+Πριν ασχοληθώ με το teleport του Spidey, έπρεπε να δημιουργήσω τις άλλες δύο πίστες του παιχνιδιού. 
   
   
  Audio. 
