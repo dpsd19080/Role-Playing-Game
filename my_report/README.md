@@ -266,8 +266,28 @@
 Επόμενο και πολύ σημαντικό βήμα, έπρεπε να προσθέσω ήχους στο παιχνίδι μου. Ξεκίνησα προσθέτοντας ήχο στα backgrounds των levels. Αυτό το πέτυχα δημιουργώντας ένα empty GameObject και κάνοντας Add Component ένα Audio Source. Μετά απλά έκανα drag and drop το audio στο source
 
 ![ScreenShot](audio_source.jpg)
+
+Στην συνέχεια, με βάση το tutorial [Audio](https://learn.unity.com/tutorial/audio-muz?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c#) απλώς έπρεπε να βάλω Audio Source σε ό,τι ήθελα να παράγει ήχο και τις εξής εντολές στα αντίστοιχα scripts
+ - Στο SpiderManController
+ ![ScreenShot](spidey_audio1.jpg)
+ ![ScreenShot](spidey_audio2.jpg)
+ ![ScreenShot](spidey_audio3.jpg)
+ ![ScreenShot](spidey_audio4.jpg)
  
+ - Στο Collectables
+ ![ScreenShot](audio_source.jpg)
  
+ - Στο EnemyController
+ ![ScreenShot](audio_source.jpg) 
+ 
+ - Στο HealthCollectible
+![ScreenShot](audio_source.jpg)
+
+ - Στο VenomHealth1
+ ![ScreenShot](audio_source.jpg)
+ 
+
+
  Menu
 buttons kai scripts 
 Τελευταίο βήμα 
