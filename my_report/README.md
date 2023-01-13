@@ -269,22 +269,30 @@
 
 Στην συνέχεια, με βάση το tutorial [Audio](https://learn.unity.com/tutorial/audio-muz?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c#) απλώς έπρεπε να βάλω Audio Source σε ό,τι ήθελα να παράγει ήχο και τις εξής εντολές στα αντίστοιχα scripts
  - Στο SpiderManController
+ 
  ![ScreenShot](spidey_audio1.jpg)
  ![ScreenShot](spidey_audio2.jpg)
  ![ScreenShot](spidey_audio3.jpg)
  ![ScreenShot](spidey_audio4.jpg)
  
  - Στο Collectables
- ![ScreenShot](audio_source.jpg)
+ 
+ ![ScreenShot](coll_audio.jpg)
  
  - Στο EnemyController
- ![ScreenShot](audio_source.jpg) 
+ 
+ ![ScreenShot](enemy_audio1.jpg) 
+ ![ScreenShot](enemy_audio2.jpg) 
  
  - Στο HealthCollectible
-![ScreenShot](audio_source.jpg)
+ 
+![ScreenShot](health_audio.jpg)
 
  - Στο VenomHealth1
- ![ScreenShot](audio_source.jpg)
+ 
+ ![ScreenShot](venom_audio1.jpg)
+ ![ScreenShot](venom_audio2.jpg)
+ ![ScreenShot](venom_audio3.jpg)
  
 
 
