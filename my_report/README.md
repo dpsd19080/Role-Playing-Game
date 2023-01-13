@@ -229,7 +229,9 @@
 
 #### Σημείωση 1: Για το πως έκανα τους εχθρούς να επιτίθενται θα το αναλύσω πιο κάτω, στο κομμάτι που μιλάω για το boss μιας και κατα την διάρκεια υλοποιήσεις του το έφτιαξα και αργότερα το πρόσθεσα στους enemies
 
-#### Σημείωση 2: Στα Level 2 και boss Level σαν particles έχω βάλει τον καπνό των κεριών (Χρησιμοποίησα το ίδιο asset με τα roof vents, απλώς το διαμόρφωσα καταλλήλως)
+#### Σημείωση 2: Τα assets για τις σφαίρες των enemies τα βρήκα εδώ: [Figuras geométricas con texturas de pixel art](https://www.pinterest.com.mx/pin/751678994048142223/?amp_client_id=CLIENT_ID(_)&mweb_unauth_id=%7B%7Bdefault.session%7D%7D&amp_url=https%3A%2F%2Fwww.pinterest.com.mx%2Famp%2Fpin%2F751678994048142223%2F&amp_expand=true)
+
+#### Σημείωση 3: Στα Level 2 και boss Level σαν particles έχω βάλει τον καπνό των κεριών (Χρησιμοποίησα το ίδιο asset με τα roof vents, απλώς το διαμόρφωσα καταλλήλως)
 
 Τώρα, σχετικά με το Boss, συνδύασα δύο διαφορετικές λογικές από δύο διαφορετικά βίντεο. Με την βοήθεια του [Enemy AI in Unity2D #3 A enemy that moves and shoots towards the player](https://www.youtube.com/watch?v=lHLZxd0O6XY&t=314s) έφτιαξα το script που κάνει τον Venom και τους εχθρούς να "πετάνε" ιστούς και σφαίρες αντίστοιχα: 
 
