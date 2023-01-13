@@ -197,18 +197,27 @@
  
  Head-Up Display για το score
  
-Έπειτα, μου ζητήθηκε από την [εκφώνηση του παραδοτέου](https://github.com/merkourisa/Role-Playing-Game/issues/3) να προσθέσω και ένα Head-Up Display για το score. Μιας και δεν μου δόθηκαν οδηγίες ανέτρεξα στο Youtube. 
+Έπειτα, μου ζητήθηκε από την [εκφώνηση του παραδοτέου](https://github.com/merkourisa/Role-Playing-Game/issues/3) να προσθέσω και ένα Head-Up Display για το score. Μιας και δεν μου δόθηκαν οδηγίες ανέτρεξα στο Youtube. Μετά απο λίγη αναζήτηση βρήκα αυτό το βίντεο: [How to add a score counter into your Unity 2D game| Easy Unity 2D Tutorial](https://www.youtube.com/watch?v=QbqnDbexrCw) το οποίο με βοήθησε να φτιάξω ένα λειτουργικό Head-Up Display που να υπολογίζει το score. Η λογική είναι απλή, μέσα στο canvas δημιουργώ ένα text και το ονομάζω score. Έπειτα δημουργώ νέο script το οποίο προσθέτω με Add Component στο text με όνομα score που δημιούργησα πριν.
+![ScreenShot](score_script.jpg)
+![ScreenShot](score_script_added.jpg)
  
   
  teleport σε κάποιο άλλο σημείο της πίστας.
  
 Πριν ασχοληθώ με το teleport του Spidey, έπρεπε να δημιουργήσω τις άλλες δύο πίστες του παιχνιδιού. 
+
+
+#### Σημείωση: Βασισμενο στην λογική ενώς απο τα βιντεο που ειδα για την δημιουργία menu και μετάβαση από αυτό στην πρώτη πίστα 
   
-  
+ boss
+ 
+ 
  Audio. 
  
  
  Menu
+buttons kai scripts 
+
 
 # Conclusions
 
