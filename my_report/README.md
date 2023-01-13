@@ -259,10 +259,12 @@
 ![ScreenShot](venom_health4.jpg)
 
 
-#### Σημείωση: Τα Health Frame και Health Bar του Venom τα έφτιαξα στο photoshop
+#### Σημείωση 1: Τα Health Frame και Health Bar του Venom τα έφτιαξα στο photoshop
 
 ![ScreenShot](Health_Frame_Venom_PS.jpg)
 ![ScreenShot](Health_Bar_Venom_PS.jpg)
+
+#### Σημείωση 2: Τα assets του Venom τα βρήκα εδώ: [BEU Venom JUS Sprite sheet](https://www.deviantart.com/danorenovado/art/BEU-Venom-JUS-Sprite-sheet-861158725)
 
 Αφού ξεμπερδέψα με αυτά, μπορούσα να ασχοληθώ με το teleport. Επειδή δυσκολεύτηκα κάπως με το raycast και δεν κατάφερα να το κάνω να λειτουργεί σωστά, αποφάσισα να το προσεγγίσω διαφορετικά. Οπότε βασίστηκα στην λογική ενώς απο τα βιντεο που ειδα για την δημιουργία menu και μετάβαση από αυτό στην πρώτη πίστα
 
