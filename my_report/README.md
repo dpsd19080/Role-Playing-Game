@@ -327,7 +327,9 @@
 
 Τέλος, για να ομαλίνω την εμπειρεία του χρήστη, πρόσθεσα Pause Menu, Game Over, You Win και Transtitions απο το ένα scene στο άλλο. Για την υλοποίηση του pause menu ακολούθησα το εξής βίντεο: [PAUSE MENU in Unity! 2020 Tutorial](https://www.youtube.com/watch?v=eC05j7rh_LM)
 
-#### Πολύ συνοπτικά, δημιουργώ ένα script, το οποίο προσθέτω και στο canvas μου..... 
+#### Πολύ συνοπτικά, δημιουργώ ένα script, το οποίο προσθέτω και στο canvas μου, γιατί αν το έβαζα στο Pause Game Object απευθείας δεν θα μπορούσε να τρέξει ο κώδικαν επειδή μέχρι να πατήσεις esc είναι απενεργοποιημένο. Έχοντας ορίσει πλέον κουμπί (esc) μένει μέσω της isGamePaused να "checkάρει" το πρόγραμμα αν πρέπει να γινει active το game object ή όχι. Την Time.timeScale την χρησιμοποιώ για να "παγώνει" ο χρόνος, δηλαδή να μην υπάρχει κίνηση στο game. Για παγώμα, Time.timeScale = 0f; και για ξεπαγωμα  Time.timeScale = 1f;
+
+![ScreenShot](pause_script.jpg)
 
 Για το Game Over & You Win, αυτο σχεδίασα λίγο. Προσπάθησα να ακολουθήσω το [Create great GAME OVER screen in Unity UI - Unity tutorial](https://www.youtube.com/watch?v=K4uOjb5p3Io) βίντεο αλλά δεν μου έβγαινε σωστά... οπότε σκέφτηκα πως θα μπορούσα να έχω απενεργοποιημένο καθ' όλη την διάρκεια του παιχνιδιού το Game Object που αφορά το game over και με το που πεθαίνει ο Spider-Man να ενεργοποιήται. Με ένα γρήγορο search βρήκα αυτές τι εντολές, όπου ενσάρκωσαν την ιδέα μου! [How to enable disabled gameobject in unity](https://stackoverflow.com/questions/42850864/how-to-enable-disabled-gameobject-in-unity)
 
