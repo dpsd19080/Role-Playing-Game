@@ -246,7 +246,7 @@
 
 ![ScreenShot](boss_flip.jpg)
 
-Και τέλος ένα script ώστε ο venom νυνηγάει τον ήρωα μας
+Και τέλος ένα script ώστε ο venom κυνηγάει τον ήρωα μας
 
 ![ScreenShot](venom_attack1.jpg)
 ![ScreenShot](venom_attack2.jpg)
