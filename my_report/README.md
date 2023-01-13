@@ -323,13 +323,18 @@
 
 ![ScreenShot](menu_ph.jpg)
 
+Τέλος, για να ομαλίνω την εμπειρεία του χρήστη, πρόσθεσα Pause Menu, Game Over, You Win και Transtitions απο το ένα scene στο άλλο. Για την υλοποίηση του pause menu ακολούθησα το εξής βίντεο: [PAUSE MENU in Unity! 2020 Tutorial](https://www.youtube.com/watch?v=eC05j7rh_LM)
 
-pause 
-game over 
-you win 
-τρανζισιονσ
+#### Πολύ συνοπτικά, δημιουργώ ένα script, το οποίο προσθέτω και στο canvas μου. 
 
-Τέλος, για να ομαλίνω την εμπειρεία του χρήστη, πρόσθεσα Pause Menu, Game Over, You Win και Transtitions απο το ένα scene στο άλλο 
+Για το Game Over & You Win, αυτο σχεδίασα λίγο. Προσπάθησα να ακολουθήσω το [Create great GAME OVER screen in Unity UI - Unity tutorial](https://www.youtube.com/watch?v=K4uOjb5p3Io) βίντεο αλλά δεν μου έβγαινε σωστά... οπότε σκέφτηκα πως θα μπορούσα να έχω απενεργοποιημένο καθ' όλη την διάρκεια του παιχνιδιού το Game Object που αφορά το game over και με το που πεθαίνει ο Spider-Man να ενεργοποιήται. Με ένα γρήγορο search βρήκα αυτές τι εντολές, όπου ενσάρκωσαν την ιδέα μου! [How to enable disabled gameobject in unity](https://stackoverflow.com/questions/42850864/how-to-enable-disabled-gameobject-in-unity)
+
+εικονα
+
+Με ακριβός το ίδιο σκεπτικό υλοποίησα και το you win! Με την μόνη διαφορά πως τώρα θα γινόταν enable όταν θα κέρδιζες τον Venom.
+
+eikona
+
 
 # Conclusions
 
@@ -357,3 +362,5 @@ you win
 - [Broken Glass Pixel Art](https://www.pngkey.com/detail/u2y3q8w7w7i1i1e6_820-x-400-4-broken-glass-pixel-art/)
 - [Enemy 1 Sheets](https://twitter.com/creeperofsteam/status/1505997629817331716)
 - [Enemy 2 Sheets](https://www.mediafire.com/convkey/0455/2ojme8ya5fmg7ypzg.jpg?size_id=5)
+
+#### 3rd Deliverable:
