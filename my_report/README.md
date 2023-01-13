@@ -251,12 +251,26 @@
 ![ScreenShot](venom_attack1.jpg)
 ![ScreenShot](venom_attack2.jpg)
 
+Επιπλέον, δημιούργησα ένα script ίδιας λογικής με του προηγούμενου παραδοτέου για να "δώσω" ζωή στο boss
+
+![ScreenShot](venom_health1.jpg)
+![ScreenShot](venom_health2.jpg)
+![ScreenShot](venom_health3.jpg)
+![ScreenShot](venom_health4.jpg)
 
 
-#### Σημείωση: Το teleport είναι βασισμένο στην λογική ενώς απο τα βιντεο που ειδα για την δημιουργία menu και μετάβαση από αυτό στην πρώτη πίστα 
-  
- 
- 
+#### Σημείωση: Τα Health Frame και Health Bar του Venom τα έφτιαξα στο photoshop
+
+![ScreenShot](Health_Frame_Venom_PS.jpg)
+![ScreenShot](Health_Bar_Venom_PS.jpg)
+
+Αφού ξεμπερδέψα με αυτά, μπορούσα να ασχοληθώ με το teleport. Επειδή δυσκολεύτηκα κάπως με το raycast και δεν κατάφερα να το κάνω να λειτουργεί σωστά, αποφάσισα να το προσεγγίσω διαφορετικά. Οπότε βασίστηκα στην λογική ενώς απο τα βιντεο που ειδα για την δημιουργία menu και μετάβαση από αυτό στην πρώτη πίστα
+
+#### Πολύ συνοπτικά, έφτιαξα ένα αντικείμενο (συγκεκριμένα την μαύρη τρύπα) και του έδωσα ενα collider με επιλεγμένο το isTrigger έτσι ώστε κάθε φορά που ο spidey το "πατάει" να πηγαίνει στο επόμενο scene.
+
+![ScreenShot](teleport_script.jpg)
+
+
  Audio. 
  
  
