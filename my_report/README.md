@@ -177,11 +177,7 @@
 
 #### Σημείωση: Τα vents τα έφτιαξα στο photoshop και τα assets για το smoke/steam effect τα βρήκα εδώ: [Smoke Pixel Art](https://es.123rf.com/photo_136357611_pixel-art-cloud-of-smoke-game-icons-set-comic-boom-flame-effects-for-emotion.html)
 ![ScreenShot](roofvents_phtoshop.jpg)
- 
- 
- 
- Visual Styling - User Interface - Head-Up Display.
- 
+  
 Επόμενο βήμα, ήταν να δημιουργήσω ένα Head-Up Display για την ζώη του Spider-Man. Στο προηγούμενο παραδοτέο που "έδωσα" ζωή στον Spider-Man, έκανε μονάχα Debug στο Console ενώ τώρα θα φαίνεται στην οθόνη του παιχνιδιού. Αρχικά, έπρεπε (μέσα στο Canvas) να δημιουργήσω ένα Image και να του προσθέσω σαν source το Health Frame 
 ![ScreenShot](health_source.jpg)
 
@@ -198,8 +194,6 @@
 Και κάπως έτσι πλέον είναι ορατή η ζώη του ήρωα μας στον παίκτη 
 
 ![Alt Text](https://github.com/dpsd19080/Role-Playing-Game/blob/main/my_report/health_hud_play.gif)
- 
- Head-Up Display για το score
  
 Έπειτα, μου ζητήθηκε από την [εκφώνηση του παραδοτέου](https://github.com/merkourisa/Role-Playing-Game/issues/3) να προσθέσω και ένα Head-Up Display για το score. Μιας και δεν μου δόθηκαν οδηγίες ανέτρεξα στο Youtube. Μετά απο λίγη αναζήτηση βρήκα αυτό το βίντεο: [How to add a score counter into your Unity 2D game| Easy Unity 2D Tutorial](https://www.youtube.com/watch?v=QbqnDbexrCw) το οποίο με βοήθησε να φτιάξω ένα λειτουργικό Head-Up Display που να υπολογίζει το score. Η λογική είναι απλή, μέσα στο canvas δημιουργώ ένα text και το ονομάζω score. Έπειτα δημουργώ νέο script το οποίο προσθέτω με Add Component στο text με όνομα score που δημιούργησα πριν.
 
@@ -220,8 +214,6 @@
 
 ![ScreenShot](collectables_script.jpg)
   
- teleport σε κάποιο άλλο σημείο της πίστας.
- 
 Πριν ασχοληθώ με το teleport του Spidey, έπρεπε να δημιουργήσω τις άλλες δύο πίστες του παιχνιδιού, το δεύτερο level και το Boss level. Αρχικά, ξεκίνησα δημιουργούντας δύο νέα scenes, ένα για την δεύτερη και ένα για το boss level. Όπως και στην πρώτη πίστα, έτσι και εδώ ακολούθησα ττο βίτνεο [Creating Tilemaps For Your 2D Game in Unity 2021 - Tutorial](https://www.youtube.com/watch?v=DTp5zi8_u1U)
 
 ![ScreenShot](level2.jpg)
@@ -230,7 +222,6 @@
 Στην συνέχεια, "διακόσμησα" το Level με τους κακούς μου και τα collectables κάνοντας τα drag and drop από τα prefabs έτσι ώστε να μην χρειαστεί να τα ξαναφτίαξω απο την αρχή. Επειδή είναι και η δεύτερη πίστα έκανα τους enemies πιο επιθετικούς και περισσότερους. 
 
 ![Alt Text](https://github.com/dpsd19080/Role-Playing-Game/blob/main/my_report/level2_sc.gif)
-
 
 #### Σημείωση 1: Για το πως έκανα τους εχθρούς να επιτίθενται θα το αναλύσω πιο κάτω, στο κομμάτι που μιλάω για το boss μιας και κατα την διάρκεια υλοποιήσεις του το έφτιαξα και αργότερα το πρόσθεσα στους enemies
 
@@ -251,7 +242,7 @@
 ![ScreenShot](venom_attack1.jpg)
 ![ScreenShot](venom_attack2.jpg)
 
-Επιπλέον, δημιούργησα ένα script ίδιας λογικής με του προηγούμενου παραδοτέου για να "δώσω" ζωή στο boss
+Επιπλέον, δημιούργησα ένα script ίδιας λογικής με του προηγούμενου παραδοτέου για να "δώσω" ζωή στο boss και ξανά ένα Head-Up Display.
 
 ![ScreenShot](venom_health1.jpg)
 ![ScreenShot](venom_health2.jpg)
@@ -272,12 +263,14 @@
 
 ![ScreenShot](teleport_script.jpg)
 
+Επόμενο και πολύ σημαντικό βήμα, έπρεπε να προσθέσω ήχους στο παιχνίδι μου. Ξεκίνησα προσθέτοντας ήχο στα backgrounds των levels. Αυτό το πέτυχα δημιουργώντας ένα empty GameObject και κάνοντας Add Component ένα Audio Source. Μετά απλά έκανα drag and drop το audio στο source
 
- Audio. 
+![ScreenShot](audio_source.jpg)
  
  
  Menu
 buttons kai scripts 
+Τελευταίο βήμα 
 
 pause 
 game over 
