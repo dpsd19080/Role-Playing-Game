@@ -208,7 +208,13 @@
 ![ScreenShot](collectables_score.jpg)
 ![ScreenShot](enemy_score.jpg)
  
-Καπου εδώ μου ήρθε η ιδέα να προσθέσω και κάποια extra collectibles έτσι ώστε να μπορεί ο παίκτης να μαζεύει πιο εύκολα και συχνά πόντους (γιφ)
+Καπου εδώ μου ήρθε η ιδέα να προσθέσω και κάποια extra collectibles έτσι ώστε να μπορεί ο παίκτης να μαζεύει πιο εύκολα και συχνά πόντους 
+
+![Alt Text](https://github.com/dpsd19080/Role-Playing-Game/blob/main/my_report/collectables.gif)
+
+και απλώς δημιούργησα και τους πρόσθεσα ένα script παρόμοιας λογικής με τα health collectables με σκοπό να μπορεί ο spidey να τα "pickάρει"
+
+![ScreenShot](collectables_script.jpg)
   
  teleport σε κάποιο άλλο σημείο της πίστας.
  
