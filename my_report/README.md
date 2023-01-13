@@ -298,7 +298,7 @@
  ![ScreenShot](venom_audio2.jpg)
  ![ScreenShot](venom_audio3.jpg)
  
-#### Σημείωση: Τα Audio Clips:
+#### Σημείωση: Τα Audio Clips που χρησιμοποιήθηκαν:
  - [Level 1](https://www.youtube.com/watch?v=vwVglilJEFQ&list=PLO4jlmGoc6uBD5b3YDG-EalAmP6MquxWW&index=20)
  - [Level 2](https://www.youtube.com/watch?v=75I0JL4eoP0&list=PLO4jlmGoc6uBD5b3YDG-EalAmP6MquxWW&index=12)
  - [Boss Level](https://www.youtube.com/watch?v=imWSWC_BzoM&list=PLO4jlmGoc6uBD5b3YDG-EalAmP6MquxWW&index=11)
@@ -308,14 +308,21 @@
  - [Enemy Hit](https://www.youtube.com/watch?v=7GDq2MKjyec)
  - [Venom Hit](https://www.youtube.com/watch?v=01x25QtB1qM)
 
- Menu
-buttons kai scripts 
-Τελευταίο βήμα 
+Τελευταίο βήμα που μου ζητήθηκε από το παραδοτέο ήταν να φτιάξω ένα δικο μου Menu και να μπορώ να επιλέξω και να ξεκινήσω τις πίστες μου μέσα από αυτό. Για την υλοποίηση αυτού του ερωτήματος, παρακολούθησα και ακολούθησα το εξής βίντεο: [5 Minute MAIN MENU Unity Tutorial](https://www.youtube.com/watch?v=-GWjA6dixV4) 
+
+#### Πολύ συνοπτικά, δημιούργησα ξανά νέο scene. Πρόσθεσα ξανά canvas για να μπορέσω να φτιάξω μέσα του τα functional buttons μου, να βάλω το background image μου και τα transitions (για τα οποία θα μιλήσω αργότερα). 
+
+Λίγο αναλυτικότερα, ξεκινάω με ένα empty Game Object, στο οποίο θα δημιουργήσω τα buttons μου σαν childs. Έπειτα φτιάχνω ένα script με όνομα 'MainMenu', το οποιο το μόνο που κάνει είναι να αλλάζει τα scenes αναλογα με το τι επιλέγω (Αυτο το ρυθμίζω επιλέγοντας το κάθε button και αλλάζοντας τις επιλογές στο On Click section)
+
+ ![ScreenShot](menu_script.jpg)
+ ![ScreenShot](on_click_menu.jpg)
 
 pause 
 game over 
 you win 
+τρανζισιονσ
 
+Τέλος, για να ομαλίνω την εμπειρεία του χρήστη, πρόσθεσα Pause Menu, Game Over, You Win και Transtitions απο το ένα scene στο άλλο 
 
 # Conclusions
 
