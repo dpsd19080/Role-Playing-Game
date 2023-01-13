@@ -198,9 +198,17 @@
  Head-Up Display για το score
  
 Έπειτα, μου ζητήθηκε από την [εκφώνηση του παραδοτέου](https://github.com/merkourisa/Role-Playing-Game/issues/3) να προσθέσω και ένα Head-Up Display για το score. Μιας και δεν μου δόθηκαν οδηγίες ανέτρεξα στο Youtube. Μετά απο λίγη αναζήτηση βρήκα αυτό το βίντεο: [How to add a score counter into your Unity 2D game| Easy Unity 2D Tutorial](https://www.youtube.com/watch?v=QbqnDbexrCw) το οποίο με βοήθησε να φτιάξω ένα λειτουργικό Head-Up Display που να υπολογίζει το score. Η λογική είναι απλή, μέσα στο canvas δημιουργώ ένα text και το ονομάζω score. Έπειτα δημουργώ νέο script το οποίο προσθέτω με Add Component στο text με όνομα score που δημιούργησα πριν.
+
 ![ScreenShot](score_script.jpg)
 ![ScreenShot](score_script_added.jpg)
+
+#### Πολύ συνοπτικά, απεικονίζει το score με την βοήθεια της scoreValue η οποία "καλείτε" στα HealthCollectible, Collectables και EnemyController scripts, δηλαδή όπου θα πρέπει να προστίθενται πόντοι στο score.
+
+![ScreenShot](health_score.jpg)
+![ScreenShot](collectables_score.jpg)
+![ScreenShot](enemy_score.jpg)
  
+Καπου εδώ μου ήρθε η ιδέα να προσθέσω και κάποια extra collectibles έτσι ώστε να μπορεί ο παίκτης να μαζεύει πιο εύκολα και συχνά πόντους (γιφ)
   
  teleport σε κάποιο άλλο σημείο της πίστας.
  
