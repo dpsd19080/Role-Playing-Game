@@ -319,9 +319,10 @@
  
  Στην συνέχεια, βάζω και ένα Background Image & Music και είναι έτοιμο! 
  
- #### Σημείωση: Το Background Image και το Logo τα έφτιαξα στο photoshop. Το Audio Clip που χρησιμοποιήθηκε: [Menu](https://www.youtube.com/watch?v=Rqiug92eas8&list=PLO4jlmGoc6uBD5b3YDG-EalAmP6MquxWW&index=8)  
+ #### Σημείωση: Το Background Image, το Logo, τα buttons στα levels και το How To Play τα έφτιαξα στο photoshop. Το Audio Clip που χρησιμοποιήθηκε: [Menu](https://www.youtube.com/watch?v=Rqiug92eas8&list=PLO4jlmGoc6uBD5b3YDG-EalAmP6MquxWW&index=8)  
 
 ![ScreenShot](menu_ph.jpg)
+![ScreenShot](htp_ph.jpg)
 
 Τέλος, για να ομαλίνω την εμπειρεία του χρήστη, πρόσθεσα Pause Menu, Game Over, You Win και Transtitions απο το ένα scene στο άλλο. Για την υλοποίηση του pause menu ακολούθησα το εξής βίντεο: [PAUSE MENU in Unity! 2020 Tutorial](https://www.youtube.com/watch?v=eC05j7rh_LM)
 
@@ -329,11 +330,11 @@
 
 Για το Game Over & You Win, αυτο σχεδίασα λίγο. Προσπάθησα να ακολουθήσω το [Create great GAME OVER screen in Unity UI - Unity tutorial](https://www.youtube.com/watch?v=K4uOjb5p3Io) βίντεο αλλά δεν μου έβγαινε σωστά... οπότε σκέφτηκα πως θα μπορούσα να έχω απενεργοποιημένο καθ' όλη την διάρκεια του παιχνιδιού το Game Object που αφορά το game over και με το που πεθαίνει ο Spider-Man να ενεργοποιήται. Με ένα γρήγορο search βρήκα αυτές τι εντολές, όπου ενσάρκωσαν την ιδέα μου! [How to enable disabled gameobject in unity](https://stackoverflow.com/questions/42850864/how-to-enable-disabled-gameobject-in-unity)
 
-εικονα
+![ScreenShot](enable_game_object_game_over.jpg)
 
-Με ακριβός το ίδιο σκεπτικό υλοποίησα και το you win! Με την μόνη διαφορά πως τώρα θα γινόταν enable όταν θα κέρδιζες τον Venom.
+Με ακριβώς το ίδιο σκεπτικό υλοποίησα και το you win! Με την μόνη διαφορά πως τώρα θα γινόταν enable όταν θα κέρδιζες τον Venom, δηλαδή όταν πεθαίνει.
 
-eikona
+![ScreenShot](enable_game_object_you_win.jpg)
 
 
 # Conclusions
