@@ -243,8 +243,7 @@
 
 Και τέλος ένα script ώστε ο venom κυνηγάει τον ήρωα μας
 
-![ScreenShot](venom_attack1.jpg)
-![ScreenShot](venom_attack2.jpg)
+![ScreenShot](venom_run.jpg)
 
 Επιπλέον, δημιούργησα ένα script ίδιας λογικής με του προηγούμενου παραδοτέου για να "δώσω" ζωή στο boss και ξανά ένα Head-Up Display.
 
@@ -334,8 +333,11 @@
 
 Με ακριβώς το ίδιο σκεπτικό υλοποίησα και το you win! Με την μόνη διαφορά πως τώρα θα γινόταν enable όταν θα κέρδιζες τον Venom, δηλαδή όταν πεθαίνει.
 
-![ScreenShot](enable_game_object_you_win.jpg)
+![ScreenShot](enable_game_object_you_won.jpg)
 
+Τέλος, για να ολοκληρωθεί πλήρως η εργασία έλειπε φτιάξω τα transition από scene σε scene. Συμβουλευομενος το [Animated Scene Transitions in 5 Minutes - Unity 2021 Tutorial](https://www.youtube.com/watch?v=JNjLCAheWSc) δημιούργησα ένα Image σε μαύρο χρώμα. Αμέσως μετά, άρχισα να το προγραμματίζω μέσω του SceneTransitions script που δημιούργησα. Στην καλύτερη υλοποίηση των transitions βοηθήσε το add-on [LeanTween](https://assetstore.unity.com/packages/tools/animation/leantween-3595), το οποίο παρέχει πάρα πολλά animations μέσω απλών εντολών που μπορουν να χρησιμοποιηθούν και σαν transitions.
+
+![ScreenShot](transition_script.jpg)
 
 # Conclusions
 
