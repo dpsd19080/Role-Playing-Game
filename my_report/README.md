@@ -316,6 +316,13 @@
 
  ![ScreenShot](menu_script.jpg)
  ![ScreenShot](on_click_menu.jpg)
+ 
+ Στην συνέχεια, βάζω και ένα Background Image & Music και είναι έτοιμο! 
+ 
+ #### Σημείωση: Το Background Image και το Logo τα έφτιαξα στο photoshop. Το Audio Clip που χρησιμοποιήθηκε: [Menu](https://www.youtube.com/watch?v=Rqiug92eas8&list=PLO4jlmGoc6uBD5b3YDG-EalAmP6MquxWW&index=8)  
+
+![ScreenShot](menu_ph.jpg)
+
 
 pause 
 game over 
