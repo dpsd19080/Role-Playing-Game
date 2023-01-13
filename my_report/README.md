@@ -194,6 +194,10 @@
 #### Σημείωση: Τα Health Frame και Health Bar του Spider-Man τα έφτιαξα στο photoshop
 ![ScreenShot](Health_Frame_Spidery_PS.jpg)
 ![ScreenShot](Health_Bar_Spidey_PS.jpg)
+
+Και κάπως έτσι πλέον είναι ορατή η ζώη του ήρωα μας στον παίκτη 
+
+![Alt Text](https://github.com/dpsd19080/Role-Playing-Game/blob/main/my_report/health_hud_play.gif)
  
  Head-Up Display για το score
  
