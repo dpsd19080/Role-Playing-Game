@@ -213,11 +213,15 @@
 και απλώς δημιούργησα και τους πρόσθεσα ένα script παρόμοιας λογικής με τα health collectables με σκοπό να μπορεί ο spidey να τα "pickάρει"
 
 ![ScreenShot](collectables_script.jpg)
+
+#### Σημείωση: Τo asset για την χρησή αράχνη: [Spider Figure Gold](https://www.pixelsquid.com/png/spider-figure-gold-2542963291110511654?image=H08)
   
 Πριν ασχοληθώ με το teleport του Spidey, έπρεπε να δημιουργήσω τις άλλες δύο πίστες του παιχνιδιού, το δεύτερο level και το Boss level. Αρχικά, ξεκίνησα δημιουργούντας δύο νέα scenes, ένα για την δεύτερη και ένα για το boss level. Όπως και στην πρώτη πίστα, έτσι και εδώ ακολούθησα ττο βίτνεο [Creating Tilemaps For Your 2D Game in Unity 2021 - Tutorial](https://www.youtube.com/watch?v=DTp5zi8_u1U)
 
 ![ScreenShot](level2.jpg)
 ![ScreenShot](bosslevel.jpg)
+
+#### Σημείωση: Το asset για το tilemap του Level 2 και Boss Level: [huge library tileset](https://www.reddit.com/r/RPGMaker/comments/x754km/a_few_new_tiles_with_which_you_can_create_huge/)
 
 Στην συνέχεια, "διακόσμησα" το Level με τους κακούς μου και τα collectables κάνοντας τα drag and drop από τα prefabs έτσι ώστε να μην χρειαστεί να τα ξαναφτίαξω απο την αρχή. Επειδή είναι και η δεύτερη πίστα έκανα τους enemies πιο επιθετικούς και περισσότερους. 
 
@@ -294,7 +298,15 @@
  ![ScreenShot](venom_audio2.jpg)
  ![ScreenShot](venom_audio3.jpg)
  
-
+#### Σημείωση: Τα Audio Clips:
+ - [Level 1](https://www.youtube.com/watch?v=vwVglilJEFQ&list=PLO4jlmGoc6uBD5b3YDG-EalAmP6MquxWW&index=20)
+ - [Level 2](https://www.youtube.com/watch?v=75I0JL4eoP0&list=PLO4jlmGoc6uBD5b3YDG-EalAmP6MquxWW&index=12)
+ - [Boss Level](https://www.youtube.com/watch?v=imWSWC_BzoM&list=PLO4jlmGoc6uBD5b3YDG-EalAmP6MquxWW&index=11)
+ - [Spider-Man Hit](https://www.youtube.com/watch?v=XgGb0gFRRhI)
+ - [Health Collectable](https://www.youtube.com/watch?v=TRgdA9_FsXM)
+ - [Gold Spider Collectable](https://www.youtube.com/watch?v=TCD77mH0lYs)
+ - [Enemy Hit](https://www.youtube.com/watch?v=7GDq2MKjyec)
+ - [Venom Hit](https://www.youtube.com/watch?v=01x25QtB1qM)
 
  Menu
 buttons kai scripts 
