@@ -177,11 +177,7 @@
 
 #### Σημείωση: Τα vents τα έφτιαξα στο photoshop και τα assets για το smoke/steam effect τα βρήκα εδώ: [Smoke Pixel Art](https://es.123rf.com/photo_136357611_pixel-art-cloud-of-smoke-game-icons-set-comic-boom-flame-effects-for-emotion.html)
 ![ScreenShot](roofvents_phtoshop.jpg)
- 
- 
- 
- Visual Styling - User Interface - Head-Up Display.
- 
+  
 Επόμενο βήμα, ήταν να δημιουργήσω ένα Head-Up Display για την ζώη του Spider-Man. Στο προηγούμενο παραδοτέο που "έδωσα" ζωή στον Spider-Man, έκανε μονάχα Debug στο Console ενώ τώρα θα φαίνεται στην οθόνη του παιχνιδιού. Αρχικά, έπρεπε (μέσα στο Canvas) να δημιουργήσω ένα Image και να του προσθέσω σαν source το Health Frame 
 ![ScreenShot](health_source.jpg)
 
@@ -194,23 +190,166 @@
 #### Σημείωση: Τα Health Frame και Health Bar του Spider-Man τα έφτιαξα στο photoshop
 ![ScreenShot](Health_Frame_Spidery_PS.jpg)
 ![ScreenShot](Health_Bar_Spidey_PS.jpg)
+
+Και κάπως έτσι πλέον είναι ορατή η ζώη του ήρωα μας στον παίκτη 
+
+![Alt Text](https://github.com/dpsd19080/Role-Playing-Game/blob/main/my_report/health_hud_play.gif)
  
- Head-Up Display για το score
+Έπειτα, μου ζητήθηκε από την [εκφώνηση του παραδοτέου](https://github.com/merkourisa/Role-Playing-Game/issues/3) να προσθέσω και ένα Head-Up Display για το score. Μιας και δεν μου δόθηκαν οδηγίες ανέτρεξα στο Youtube. Μετά απο λίγη αναζήτηση βρήκα αυτό το βίντεο: [How to add a score counter into your Unity 2D game| Easy Unity 2D Tutorial](https://www.youtube.com/watch?v=QbqnDbexrCw) το οποίο με βοήθησε να φτιάξω ένα λειτουργικό Head-Up Display που να υπολογίζει το score. Η λογική είναι απλή, μέσα στο canvas δημιουργώ ένα text και το ονομάζω score. Έπειτα δημουργώ νέο script το οποίο προσθέτω με Add Component στο text με όνομα score που δημιούργησα πριν.
+
+![ScreenShot](score_script.jpg)
+![ScreenShot](score_script_added.jpg)
+
+#### Πολύ συνοπτικά, απεικονίζει το score με την βοήθεια της scoreValue η οποία "καλείτε" στα HealthCollectible, Collectables και EnemyController scripts, δηλαδή όπου θα πρέπει να προστίθενται πόντοι στο score.
+
+![ScreenShot](health_score.jpg)
+![ScreenShot](collectables_score.jpg)
+![ScreenShot](enemy_score.jpg)
  
-Έπειτα, μου ζητήθηκε από την [εκφώνηση του παραδοτέου](https://github.com/merkourisa/Role-Playing-Game/issues/3) να προσθέσω και ένα Head-Up Display για το score. Μιας και δεν μου δόθηκαν οδηγίες ανέτρεξα στο Youtube. 
- 
+Καπου εδώ μου ήρθε η ιδέα να προσθέσω και κάποια extra collectibles έτσι ώστε να μπορεί ο παίκτης να μαζεύει πιο εύκολα και συχνά πόντους 
+
+![Alt Text](https://github.com/dpsd19080/Role-Playing-Game/blob/main/my_report/collectables.gif)
+
+και απλώς δημιούργησα και τους πρόσθεσα ένα script παρόμοιας λογικής με τα health collectables με σκοπό να μπορεί ο spidey να τα "pickάρει"
+
+![ScreenShot](collectables_script.jpg)
+
+#### Σημείωση: Τo asset για την χρησή αράχνη: [Spider Figure Gold](https://www.pixelsquid.com/png/spider-figure-gold-2542963291110511654?image=H08)
   
- teleport σε κάποιο άλλο σημείο της πίστας.
+Πριν ασχοληθώ με το teleport του Spidey, έπρεπε να δημιουργήσω τις άλλες δύο πίστες του παιχνιδιού, το δεύτερο level και το Boss level. Αρχικά, ξεκίνησα δημιουργούντας δύο νέα scenes, ένα για την δεύτερη και ένα για το boss level. Όπως και στην πρώτη πίστα, έτσι και εδώ ακολούθησα ττο βίτνεο [Creating Tilemaps For Your 2D Game in Unity 2021 - Tutorial](https://www.youtube.com/watch?v=DTp5zi8_u1U)
+
+![ScreenShot](level2.jpg)
+![ScreenShot](bosslevel.jpg)
+
+#### Σημείωση: Το asset για το tilemap του Level 2 και Boss Level: [huge library tileset](https://www.reddit.com/r/RPGMaker/comments/x754km/a_few_new_tiles_with_which_you_can_create_huge/)
+
+Στην συνέχεια, "διακόσμησα" το Level με τους κακούς μου και τα collectables κάνοντας τα drag and drop από τα prefabs έτσι ώστε να μην χρειαστεί να τα ξαναφτίαξω απο την αρχή. Επειδή είναι και η δεύτερη πίστα έκανα τους enemies πιο επιθετικούς και περισσότερους. 
+
+![Alt Text](https://github.com/dpsd19080/Role-Playing-Game/blob/main/my_report/level2_sc.gif)
+
+#### Σημείωση 1: Για το πως έκανα τους εχθρούς να επιτίθενται θα το αναλύσω πιο κάτω, στο κομμάτι που μιλάω για το boss μιας και κατα την διάρκεια υλοποιήσεις του το έφτιαξα και αργότερα το πρόσθεσα στους enemies
+
+#### Σημείωση 2: Τα assets για τις σφαίρες των enemies τα βρήκα εδώ: [Figuras geométricas con texturas de pixel art](https://www.pinterest.com.mx/pin/751678994048142223/?amp_client_id=CLIENT_ID(_)&mweb_unauth_id=%7B%7Bdefault.session%7D%7D&amp_url=https%3A%2F%2Fwww.pinterest.com.mx%2Famp%2Fpin%2F751678994048142223%2F&amp_expand=true)
+
+#### Σημείωση 3: Στα Level 2 και boss Level σαν particles έχω βάλει τον καπνό των κεριών (Χρησιμοποίησα το ίδιο asset με τα roof vents, απλώς το διαμόρφωσα καταλλήλως)
+
+Τώρα, σχετικά με το Boss, συνδύασα δύο διαφορετικές λογικές από δύο διαφορετικά βίντεο. Με την βοήθεια του [Enemy AI in Unity2D #3 A enemy that moves and shoots towards the player](https://www.youtube.com/watch?v=lHLZxd0O6XY&t=314s) έφτιαξα το script που κάνει τον Venom και τους εχθρούς να "πετάνε" ιστούς και σφαίρες αντίστοιχα: 
+
+![ScreenShot](webs_bullets_script.jpg)
+
+#### Πολύ συνοπτικά, εντοπίζουν τον Spidey και όταν βρίσκεται σε μια συγκεκριμένη απόσταση (την οποία ορίζω εγώ χάρη στις μεταβλητές), αρχίζουν να πυροβολάνε τον ήρωα μας. Αξίζει να σημειώθει επίσης, πως έχουν φτιαχτεί μεταβλητές και κώδικας έτσι ώστε να ακολουθούν τον Spider-Man αλλά δεν χρησιμοποιήθηκε μιας και χρειαζόταν μόνο στον Venom και επιπλέον υλοποιήθηκε με καλύτερο τρόπο χάρη στο άλλο βίντεο.  
+
+Με την βοήθεια του [How to make a BOSS in Unity!](https://www.youtube.com/watch?v=AD4JIXQDw0s&t=1149s) αρχικά έφτιαξα τον Animator του Venom έπειτα ένα script που "flipάρει" το Boss κάθε φορά που πηγαίνει ο spidey από πίσω του.
+
+![ScreenShot](boss_flip.jpg)
+
+Και τέλος ένα script ώστε ο venom κυνηγάει τον ήρωα μας
+
+![ScreenShot](venom_run.jpg)
+
+Επιπλέον, δημιούργησα ένα script ίδιας λογικής με του προηγούμενου παραδοτέου για να "δώσω" ζωή στο boss και ξανά ένα Head-Up Display.
+
+![ScreenShot](venom_health1.jpg)
+![ScreenShot](venom_health2.jpg)
+![ScreenShot](venom_health3.jpg)
+![ScreenShot](venom_health4.jpg)
+
+
+#### Σημείωση 1: Τα Health Frame και Health Bar του Venom τα έφτιαξα στο photoshop
+
+![ScreenShot](Health_Frame_Venom_PS.jpg)
+![ScreenShot](Health_Bar_Venom_PS.jpg)
+
+#### Σημείωση 2: Τα assets του Venom τα βρήκα εδώ: [BEU Venom JUS Sprite sheet](https://www.deviantart.com/danorenovado/art/BEU-Venom-JUS-Sprite-sheet-861158725)
+
+Αφού ξεμπερδέψα με αυτά, μπορούσα να ασχοληθώ με το teleport. Επειδή δυσκολεύτηκα κάπως με το raycast και δεν κατάφερα να το κάνω να λειτουργεί σωστά, αποφάσισα να το προσεγγίσω διαφορετικά. Οπότε βασίστηκα στην λογική ενώς απο τα βιντεο που ειδα για την δημιουργία menu και μετάβαση από αυτό στην πρώτη πίστα
+
+#### Πολύ συνοπτικά, έφτιαξα ένα αντικείμενο (συγκεκριμένα την μαύρη τρύπα) και του έδωσα ενα collider με επιλεγμένο το isTrigger έτσι ώστε κάθε φορά που ο spidey το "πατάει" να πηγαίνει στο επόμενο scene.
+
+![ScreenShot](teleport_script.jpg)
+
+Επόμενο και πολύ σημαντικό βήμα, έπρεπε να προσθέσω ήχους στο παιχνίδι μου. Ξεκίνησα προσθέτοντας ήχο στα backgrounds των levels. Αυτό το πέτυχα δημιουργώντας ένα empty GameObject και κάνοντας Add Component ένα Audio Source. Μετά απλά έκανα drag and drop το audio στο source
+
+![ScreenShot](audio_source.jpg)
+
+Στην συνέχεια, με βάση το tutorial [Audio](https://learn.unity.com/tutorial/audio-muz?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c#) απλώς έπρεπε να βάλω Audio Source σε ό,τι ήθελα να παράγει ήχο και τις εξής εντολές στα αντίστοιχα scripts
+ - Στο SpiderManController
  
-Πριν ασχοληθώ με το teleport του Spidey, έπρεπε να δημιουργήσω τις άλλες δύο πίστες του παιχνιδιού. 
-  
-  
- Audio. 
+ ![ScreenShot](spidey_audio1.jpg)
+ ![ScreenShot](spidey_audio2.jpg)
+ ![ScreenShot](spidey_audio3.jpg)
+ ![ScreenShot](spidey_audio4.jpg)
  
+ - Στο Collectables
  
- Menu
+ ![ScreenShot](coll_audio.jpg)
+ 
+ - Στο EnemyController
+ 
+ ![ScreenShot](enemy_audio1.jpg) 
+ ![ScreenShot](enemy_audio2.jpg) 
+ 
+ - Στο HealthCollectible
+ 
+![ScreenShot](health_audio.jpg)
+
+ - Στο VenomHealth1
+ 
+ ![ScreenShot](venom_audio1.jpg)
+ ![ScreenShot](venom_audio2.jpg)
+ ![ScreenShot](venom_audio3.jpg)
+ 
+#### Σημείωση: Τα Audio Clips που χρησιμοποιήθηκαν:
+ - [Level 1](https://www.youtube.com/watch?v=vwVglilJEFQ&list=PLO4jlmGoc6uBD5b3YDG-EalAmP6MquxWW&index=20)
+ - [Level 2](https://www.youtube.com/watch?v=75I0JL4eoP0&list=PLO4jlmGoc6uBD5b3YDG-EalAmP6MquxWW&index=12)
+ - [Boss Level](https://www.youtube.com/watch?v=imWSWC_BzoM&list=PLO4jlmGoc6uBD5b3YDG-EalAmP6MquxWW&index=11)
+ - [Spider-Man Hit](https://www.youtube.com/watch?v=XgGb0gFRRhI)
+ - [Health Collectable](https://www.youtube.com/watch?v=TRgdA9_FsXM)
+ - [Gold Spider Collectable](https://www.youtube.com/watch?v=TCD77mH0lYs)
+ - [Enemy Hit](https://www.youtube.com/watch?v=7GDq2MKjyec)
+ - [Venom Hit](https://www.youtube.com/watch?v=01x25QtB1qM)
+
+Τελευταίο βήμα που μου ζητήθηκε από το παραδοτέο ήταν να φτιάξω ένα δικο μου Menu και να μπορώ να επιλέξω και να ξεκινήσω τις πίστες μου μέσα από αυτό. Για την υλοποίηση αυτού του ερωτήματος, παρακολούθησα και ακολούθησα το εξής βίντεο: [5 Minute MAIN MENU Unity Tutorial](https://www.youtube.com/watch?v=-GWjA6dixV4) 
+
+#### Πολύ συνοπτικά, δημιούργησα ξανά νέο scene. Πρόσθεσα ξανά canvas για να μπορέσω να φτιάξω μέσα του τα functional buttons μου, να βάλω το background image μου και τα transitions (για τα οποία θα μιλήσω αργότερα). 
+
+Λίγο αναλυτικότερα, ξεκινάω με ένα empty Game Object, στο οποίο θα δημιουργήσω τα buttons μου σαν childs. Έπειτα φτιάχνω ένα script με όνομα 'MainMenu', το οποιο το μόνο που κάνει είναι να αλλάζει τα scenes αναλογα με το τι επιλέγω (Αυτο το ρυθμίζω επιλέγοντας το κάθε button και αλλάζοντας τις επιλογές στο On Click section)
+
+ ![ScreenShot](menu_script.jpg)
+ ![ScreenShot](on_click_menu.jpg)
+ 
+ Στην συνέχεια, βάζω και ένα Background Image & Music και είναι έτοιμο! 
+ 
+ #### Σημείωση: Το Background Image, το Logo, τα buttons στα levels και το How To Play τα έφτιαξα στο photoshop. Το Audio Clip που χρησιμοποιήθηκε: [Menu](https://www.youtube.com/watch?v=Rqiug92eas8&list=PLO4jlmGoc6uBD5b3YDG-EalAmP6MquxWW&index=8)  
+
+![ScreenShot](menu_ph.jpg)
+![ScreenShot](htp_ph.jpg)
+
+Τέλος, για να ομαλίνω την εμπειρεία του χρήστη, πρόσθεσα Pause Menu, Game Over, You Win και Transtitions απο το ένα scene στο άλλο. Για την υλοποίηση του pause menu ακολούθησα το εξής βίντεο: [PAUSE MENU in Unity! 2020 Tutorial](https://www.youtube.com/watch?v=eC05j7rh_LM)
+
+#### Πολύ συνοπτικά, δημιουργώ ένα script, το οποίο προσθέτω και στο canvas μου, γιατί αν το έβαζα στο Pause Game Object απευθείας δεν θα μπορούσε να τρέξει ο κώδικαν επειδή μέχρι να πατήσεις esc είναι απενεργοποιημένο. Έχοντας ορίσει πλέον κουμπί (esc) μένει μέσω της isGamePaused να "checkάρει" το πρόγραμμα αν πρέπει να γινει active το game object ή όχι. Την Time.timeScale την χρησιμοποιώ για να "παγώνει" ο χρόνος, δηλαδή να μην υπάρχει κίνηση στο game. Για παγώμα, Time.timeScale = 0f; και για ξεπαγωμα  Time.timeScale = 1f;
+
+![ScreenShot](pause_script.jpg)
+
+Για το Game Over & You Win, αυτο σχεδίασα λίγο. Προσπάθησα να ακολουθήσω το [Create great GAME OVER screen in Unity UI - Unity tutorial](https://www.youtube.com/watch?v=K4uOjb5p3Io) βίντεο αλλά δεν μου έβγαινε σωστά... οπότε σκέφτηκα πως θα μπορούσα να έχω απενεργοποιημένο καθ' όλη την διάρκεια του παιχνιδιού το Game Object που αφορά το game over και με το που πεθαίνει ο Spider-Man να ενεργοποιήται. Με ένα γρήγορο search βρήκα αυτές τι εντολές, όπου ενσάρκωσαν την ιδέα μου! [How to enable disabled gameobject in unity](https://stackoverflow.com/questions/42850864/how-to-enable-disabled-gameobject-in-unity)
+
+![ScreenShot](enable_game_object_game_over.jpg)
+
+Με ακριβώς το ίδιο σκεπτικό υλοποίησα και το you win! Με την μόνη διαφορά πως τώρα θα γινόταν enable όταν θα κέρδιζες τον Venom, δηλαδή όταν πεθαίνει.
+
+![ScreenShot](enable_game_object_you_won.jpg)
+
+Τέλος, για να ολοκληρωθεί πλήρως η εργασία έλειπε φτιάξω τα transition από scene σε scene. Συμβουλευομενος το [Animated Scene Transitions in 5 Minutes - Unity 2021 Tutorial](https://www.youtube.com/watch?v=JNjLCAheWSc) δημιούργησα ένα Image σε μαύρο χρώμα. Αμέσως μετά, άρχισα να το προγραμματίζω μέσω του SceneTransitions script που δημιούργησα. Στην καλύτερη υλοποίηση των transitions βοηθήσε το add-on [LeanTween](https://assetstore.unity.com/packages/tools/animation/leantween-3595), το οποίο παρέχει πάρα πολλά animations μέσω απλών εντολών που μπορουν να χρησιμοποιηθούν και σαν transitions.
+
+![ScreenShot](transition_script.jpg)
+
+Και κάπως έτσι, το παραδοτέο ολοκληρώθηκε και πλέον μπορώ να απολαύσω το τελικό παιχνίδι!
+
+![Alt Text](https://github.com/dpsd19080/Role-Playing-Game/blob/main/my_report/final_game.gif)
 
 # Conclusions
+
+Σε αυτή την εργασία ασχολήθηκα με κάτι το οποίο είχα όνειρο απο παιδί να φτιάξω, αλλά ποτέ δεν μου δόθηκε η ευκαιρία και το σημαντικότερο, δεν μου δώθηκε ποτέ κατεύθυνση. Σε αυτό το Project, μέσα από τα παραδοτέα, άρχισα σιγά σιγά και να καταλαβαίνω την λογική αλλά και πως δεν είναι κάτι απίθανο να γίνει αν ψάξεις και πειραματιστείς. Κατάφερα να κατανοήσω την λογική πίσω απο την δημιουργεία ενώς Video Game λόγω της τεράστειας βοήθειας των resources που είχαν υποδειχθεί και μέσα από αυτά κατάφερα να βρω και άλλα παρεμφερή ώστε να ολοκληρώσω τα παραδοτέα! Γενικότερα, μέσα από αυτή την εργασία δεν έμαθα μονάχα να χτίζω σιγά σιγά ένα game, άλλα μου δόθηκε και η ευκαιρία να μάθω πως πάντα υπάρχει μια λύση αρκή να έχω επιμονή και υπομονή.
 
 
 # Sources
@@ -236,3 +375,32 @@
 - [Broken Glass Pixel Art](https://www.pngkey.com/detail/u2y3q8w7w7i1i1e6_820-x-400-4-broken-glass-pixel-art/)
 - [Enemy 1 Sheets](https://twitter.com/creeperofsteam/status/1505997629817331716)
 - [Enemy 2 Sheets](https://www.mediafire.com/convkey/0455/2ojme8ya5fmg7ypzg.jpg?size_id=5)
+
+#### 3rd Deliverable:
+- [Visual Styling - Particles](https://learn.unity.com/tutorial/visual-styling-particles?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c)
+- [Visual Styling - User Interface - Head-Up Display](https://learn.unity.com/tutorial/visual-styling-ui-head-up-display?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c)
+- [World Interactions - Dialog Raycast](https://learn.unity.com/tutorial/world-interactions-dialogue-raycast?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c)
+- [Audio](https://learn.unity.com/tutorial/audio-muz?uv=2020.3&projectId=5c6166dbedbc2a0021b1bc7c)
+- [Smoke Pixel Art](https://es.123rf.com/photo_136357611_pixel-art-cloud-of-smoke-game-icons-set-comic-boom-flame-effects-for-emotion.html)
+- [How to add a score counter into your Unity 2D game| Easy Unity 2D Tutorial](https://www.youtube.com/watch?v=QbqnDbexrCw)
+- [Spider Figure Gold](https://www.pixelsquid.com/png/spider-figure-gold-2542963291110511654?image=H08)
+- [huge library tileset](https://www.reddit.com/r/RPGMaker/comments/x754km/a_few_new_tiles_with_which_you_can_create_huge/)
+- [Figuras geométricas con texturas de pixel art](https://www.pinterest.com.mx/pin/751678994048142223/?amp_client_id=CLIENT_ID(_)&mweb_unauth_id=%7B%7Bdefault.session%7D%7D&amp_url=https%3A%2F%2Fwww.pinterest.com.mx%2Famp%2Fpin%2F751678994048142223%2F&amp_expand=true)
+- [Enemy AI in Unity2D #3 A enemy that moves and shoots towards the player](https://www.youtube.com/watch?v=lHLZxd0O6XY&t=314s)
+- [How to make a BOSS in Unity!](https://www.youtube.com/watch?v=AD4JIXQDw0s&t=1149s)
+- [BEU Venom JUS Sprite sheet](https://www.deviantart.com/danorenovado/art/BEU-Venom-JUS-Sprite-sheet-861158725)
+- [Level 1](https://www.youtube.com/watch?v=vwVglilJEFQ&list=PLO4jlmGoc6uBD5b3YDG-EalAmP6MquxWW&index=20)
+- [Level 2](https://www.youtube.com/watch?v=75I0JL4eoP0&list=PLO4jlmGoc6uBD5b3YDG-EalAmP6MquxWW&index=12)
+- [Boss Level](https://www.youtube.com/watch?v=imWSWC_BzoM&list=PLO4jlmGoc6uBD5b3YDG-EalAmP6MquxWW&index=11)
+- [Spider-Man Hit](https://www.youtube.com/watch?v=XgGb0gFRRhI)
+- [Health Collectable](https://www.youtube.com/watch?v=TRgdA9_FsXM)
+- [Gold Spider Collectable](https://www.youtube.com/watch?v=TCD77mH0lYs)
+- [Enemy Hit](https://www.youtube.com/watch?v=7GDq2MKjyec)
+- [Venom Hit](https://www.youtube.com/watch?v=01x25QtB1qM)
+- [Menu](https://www.youtube.com/watch?v=Rqiug92eas8&list=PLO4jlmGoc6uBD5b3YDG-EalAmP6MquxWW&index=8)  
+- [5 Minute MAIN MENU Unity Tutorial](https://www.youtube.com/watch?v=-GWjA6dixV4) 
+- [PAUSE MENU in Unity! 2020 Tutorial](https://www.youtube.com/watch?v=eC05j7rh_LM)
+- [Create great GAME OVER screen in Unity UI - Unity tutorial](https://www.youtube.com/watch?v=K4uOjb5p3Io)
+- [How to enable disabled gameobject in unity](https://stackoverflow.com/questions/42850864/how-to-enable-disabled-gameobject-in-unity)
+- [Animated Scene Transitions in 5 Minutes - Unity 2021 Tutorial](https://www.youtube.com/watch?v=JNjLCAheWSc)
+- [LeanTween](https://assetstore.unity.com/packages/tools/animation/leantween-3595)
